@@ -1,0 +1,2 @@
+Thread modelling:
+https://aws.amazon.com/blogs/security/how-to-approach-threat-modeling/

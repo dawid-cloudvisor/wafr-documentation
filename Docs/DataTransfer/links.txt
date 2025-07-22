@@ -1,0 +1,3 @@
+https://docs.aws.amazon.com/cur/latest/userguide/cur-data-transfers-charges.html
+
+https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/

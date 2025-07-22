@@ -1,0 +1,30 @@
+First make sure you can SSH from your device. (for example have openSSH installed).
+
+In order to use the EC2 bastion host first you will need to open a terminal Session on your device and type the following syntaxed command:
+Syntax:
+ssh -N -i <yourPEM> -L <LOCALPORT>:<RDS_ENDPOINT>:<RDS_PORT> <EC2_USER>@<EC2_DNS_ADDRESS>
+
+<yourPEM> I've sent you in attachment here.
+<LOCALPORT> Is the port on your machine to connect to the RDS
+<RDS_ENDPOINT> You can copy it out from the AWS RDS Console.
+<RDS_PORT> Is the port of the RDS database in AWS.
+<EC2_USER> is the user of the EC2 machine. In your case it is: ec2-user
+<EC2_DNS_ADDRESS> is the PUBLIC DNS ADDRESS of the EC2 machine. You can copy it from the EC2 console bye clickin on the EC2-bastion. For example ip-11-22-33-44.ec2.internal.
+
+
+Please note that:
+-N --> does not give back the prompt, needs a new terminal window to connect!
+NOTE:
+If you delete -N and -L and the RDS endpoint and leave only EC2 basically it is a simple SSH command to the EC2!
+
+Now you can connect to db in another terminal with the following sytaxed command:
+mysql -h 127.0.0.1 -p -u <USER> <DATABASENAME>
+ 
+<USER> is the DATABASE User
+<DATABASENAME> is the database inside the RDS you want to connect to.
+
+
+Example command: (PLEASE CHANGE THE PATH FOR THE PEM AND CHANGE THE DB USERNAME AND DB NAME)
+ssh -N -i d:/_TEMP/keypairname.pem -L 3306:test.dummy.us-east-1.rds.amazonaws.com:3306 ec2-user@ec2-11-22-33-44.compute-1.amazonaws.com
+
+mysql -h 127.0.0.1 -p -u admin databasename
