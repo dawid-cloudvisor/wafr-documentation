@@ -27,17 +27,53 @@ The Operational Excellence pillar includes the following key areas:
 The AWS Well-Architected Framework provides a set of questions that allows you to review an existing or proposed architecture. It also provides a set of AWS best practices for each pillar.
 
 <div class="question-cards">
-  {% for child in site.pages %}
-    {% if child.parent == page.title %}
-      <div class="question-card">
-        <h3>{{ child.title }}</h3>
-        <a href="{{ child.url | absolute_url }}">View details →</a>
-      </div>
-    {% endif %}
-  {% endfor %}
+  <div class="question-card">
+    <h3>OPS01 - How do you determine what your priorities are?</h3>
+    <a href="./OPS01">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>OPS02 - How do you structure your organization to support your business outcomes?</h3>
+    <a href="./OPS02">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>OPS03 - How does your organizational culture support your business outcomes?</h3>
+    <a href="./OPS03">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>OPS04 - How do you design your workload so that you can understand its state?</h3>
+    <a href="./OPS04">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>OPS05 - How do you reduce defects, ease remediation, and improve flow into production?</h3>
+    <a href="./OPS05">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>OPS06 - How do you mitigate deployment risks?</h3>
+    <a href="./OPS06">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>OPS07 - How do you know that you are ready to support a workload?</h3>
+    <a href="./OPS07">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>OPS08 - How do you understand the health of your workload?</h3>
+    <a href="./OPS08">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>OPS09 - How do you understand the health of your operations?</h3>
+    <a href="./OPS09">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>OPS10 - How do you manage workload and operations events?</h3>
+    <a href="./OPS10">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>OPS11 - How do you evolve operations?</h3>
+    <a href="./OPS11">View details →</a>
+  </div>
 </div>
 
-## AWS Services for {title}
+## AWS Services for Operational Excellence
 
 <div class="aws-service">
   <div class="aws-service-content">

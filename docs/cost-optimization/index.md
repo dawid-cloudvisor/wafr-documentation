@@ -28,17 +28,53 @@ The Cost Optimization pillar includes the following key areas:
 The AWS Well-Architected Framework provides a set of questions that allows you to review an existing or proposed architecture. It also provides a set of AWS best practices for each pillar.
 
 <div class="question-cards">
-  {% for child in site.pages %}
-    {% if child.parent == page.title %}
-      <div class="question-card">
-        <h3>{{ child.title }}</h3>
-        <a href="{{ child.url | absolute_url }}">View details →</a>
-      </div>
-    {% endif %}
-  {% endfor %}
+  <div class="question-card">
+    <h3>COST01 - How do you implement cloud financial management?</h3>
+    <a href="./COST01">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>COST02 - How do you govern usage?</h3>
+    <a href="./COST02">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>COST03 - How do you monitor usage and cost?</h3>
+    <a href="./COST03">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>COST04 - How do you decommission resources?</h3>
+    <a href="./COST04">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>COST05 - How do you evaluate cost when you select services?</h3>
+    <a href="./COST05">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>COST06 - How do you meet cost targets when you select resource type, size and number?</h3>
+    <a href="./COST06">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>COST07 - How do you use pricing models to reduce cost?</h3>
+    <a href="./COST07">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>COST08 - How do you plan for data transfer charges?</h3>
+    <a href="./COST08">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>COST09 - How do you manage demand, and supply resources?</h3>
+    <a href="./COST09">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>COST10 - How do you evaluate new services?</h3>
+    <a href="./COST10">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>COST11 - How do you optimize your organization's expenditure on generative AI?</h3>
+    <a href="./COST11">View details →</a>
+  </div>
 </div>
 
-## AWS Services for {title}
+## AWS Services for Cost Optimization
 
 <div class="aws-service">
   <div class="aws-service-content">

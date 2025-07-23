@@ -27,17 +27,41 @@ The Performance Efficiency pillar includes the following key areas:
 The AWS Well-Architected Framework provides a set of questions that allows you to review an existing or proposed architecture. It also provides a set of AWS best practices for each pillar.
 
 <div class="question-cards">
-  {% for child in site.pages %}
-    {% if child.parent == page.title %}
-      <div class="question-card">
-        <h3>{{ child.title }}</h3>
-        <a href="{{ child.url | absolute_url }}">View details →</a>
-      </div>
-    {% endif %}
-  {% endfor %}
+  <div class="question-card">
+    <h3>PERF01 - How do you select the best performing architecture?</h3>
+    <a href="./PERF01">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>PERF02 - How do you select your compute solution?</h3>
+    <a href="./PERF02">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>PERF03 - How do you select your storage solution?</h3>
+    <a href="./PERF03">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>PERF04 - How do you select your database solution?</h3>
+    <a href="./PERF04">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>PERF05 - How do you configure your networking solution?</h3>
+    <a href="./PERF05">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>PERF06 - How do you evolve your workload to take advantage of new releases?</h3>
+    <a href="./PERF06">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>PERF07 - How do you monitor your resources to ensure they are performing?</h3>
+    <a href="./PERF07">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>PERF08 - How do you use tradeoffs to improve performance?</h3>
+    <a href="./PERF08">View details →</a>
+  </div>
 </div>
 
-## AWS Services for {title}
+## AWS Services for Performance Efficiency
 
 <div class="aws-service">
   <div class="aws-service-content">

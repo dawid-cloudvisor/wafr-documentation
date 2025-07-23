@@ -29,17 +29,53 @@ The Security pillar includes the following key areas:
 The AWS Well-Architected Framework provides a set of questions that allows you to review an existing or proposed architecture. It also provides a set of AWS best practices for each pillar.
 
 <div class="question-cards">
-  {% for child in site.pages %}
-    {% if child.parent == page.title %}
-      <div class="question-card">
-        <h3>{{ child.title }}</h3>
-        <a href="{{ child.url | absolute_url }}">View details →</a>
-      </div>
-    {% endif %}
-  {% endfor %}
+  <div class="question-card">
+    <h3>SEC01 - How do you securely operate your workload?</h3>
+    <a href="./SEC01">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SEC02 - How do you manage identities for people and machines?</h3>
+    <a href="./SEC02">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SEC03 - How do you manage permissions for people and machines?</h3>
+    <a href="./SEC03">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SEC04 - How do you detect and investigate security events?</h3>
+    <a href="./SEC04">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SEC05 - How do you protect your network resources?</h3>
+    <a href="./SEC05">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SEC06 - How do you protect your compute resources?</h3>
+    <a href="./SEC06">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SEC07 - How do you classify your data?</h3>
+    <a href="./SEC07">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SEC08 - How do you protect your data at rest?</h3>
+    <a href="./SEC08">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SEC09 - How do you protect your data in transit?</h3>
+    <a href="./SEC09">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SEC10 - How do you anticipate, respond to, and recover from incidents?</h3>
+    <a href="./SEC10">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SEC11 - How do you securely manage your AI workloads?</h3>
+    <a href="./SEC11">View details →</a>
+  </div>
 </div>
 
-## AWS Services for {title}
+## AWS Services for Security
 
 <div class="aws-service">
   <div class="aws-service-content">

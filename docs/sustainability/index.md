@@ -29,17 +29,33 @@ The Sustainability pillar includes the following key areas:
 The AWS Well-Architected Framework provides a set of questions that allows you to review an existing or proposed architecture. It also provides a set of AWS best practices for each pillar.
 
 <div class="question-cards">
-  {% for child in site.pages %}
-    {% if child.parent == page.title %}
-      <div class="question-card">
-        <h3>{{ child.title }}</h3>
-        <a href="{{ child.url | absolute_url }}">View details →</a>
-      </div>
-    {% endif %}
-  {% endfor %}
+  <div class="question-card">
+    <h3>SUS01 - How do you select Regions to support your sustainability goals?</h3>
+    <a href="./SUS01">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SUS02 - How do you take advantage of user behavior patterns to support your sustainability goals?</h3>
+    <a href="./SUS02">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SUS03 - How do you take advantage of software and architecture patterns to support your sustainability goals?</h3>
+    <a href="./SUS03">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SUS04 - How do you take advantage of data access and usage patterns to support your sustainability goals?</h3>
+    <a href="./SUS04">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SUS05 - How do you take advantage of hardware patterns to support your sustainability goals?</h3>
+    <a href="./SUS05">View details →</a>
+  </div>
+  <div class="question-card">
+    <h3>SUS06 - How do you take advantage of development and deployment process to support your sustainability goals?</h3>
+    <a href="./SUS06">View details →</a>
+  </div>
 </div>
 
-## AWS Services for {title}
+## AWS Services for Sustainability
 
 <div class="aws-service">
   <div class="aws-service-content">
