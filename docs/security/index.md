@@ -1,7 +1,7 @@
 ---
 title: Security
 layout: default
-nav_order: 2
+nav_order: 3
 has_children: true
 permalink: /docs/security
 ---
@@ -11,67 +11,173 @@ permalink: /docs/security
   <p>The security pillar focuses on protecting information and systems. Key topics include confidentiality and integrity of data, identifying and managing who can do what with privilege management, protecting systems, and establishing controls to detect security events.</p>
 </div>
 
-The Security pillar includes the ability to support development and run workloads effectively, gain insight into their operations, and to continuously improve supporting processes and procedures to deliver business value.
+The Security pillar includes the ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
 
-## Key Areas
+## Security Questions
 
-The Security pillar includes the following key areas:
-
-- **Security Foundations** - Implementing a strong identity foundation
-- **Identity and Access Management** - Ensuring only authorized and authenticated users can access your resources
-- **Detection** - Implementing monitoring, alerting, and audit actions
-- **Infrastructure Protection** - Protecting systems and services within your workload
-- **Data Protection** - Classifying data and implementing controls to protect it
-- **Incident Response** - Responding to and mitigating the potential impact of security incidents
-
-## Questions
-
-The AWS Well-Architected Framework provides a set of questions that allows you to review an existing or proposed architecture. It also provides a set of AWS best practices for each pillar.
-
-<div class="question-cards">
-  <div class="question-card">
-    <h3>SEC01 - How do you securely operate your workload?</h3>
-    <a href="./SEC01">View details →</a>
+<div class="question-accordion">
+  <div class="question-button">
+    <a href="javascript:void(0);">SEC01: How do you securely operate your workload?</a>
+    <div class="question-content">
+      <ul>
+        <li><a href="./SEC01">View all SEC01 best practices</a></li>
+        <li><a href="./SEC01-BP01">SEC01-BP01: Separate workloads using accounts</a></li>
+        <li><a href="./SEC01-BP02">SEC01-BP02: Secure account root user and properties</a></li>
+        <li><a href="./SEC01-BP03">SEC01-BP03: Identify and validate control objectives</a></li>
+        <li><a href="./SEC01-BP04">SEC01-BP04: Stay up to date with security threats and recommendations</a></li>
+        <li><a href="./SEC01-BP05">SEC01-BP05: Reduce security management scope</a></li>
+        <li><a href="./SEC01-BP06">SEC01-BP06: Automate deployment of standard security controls</a></li>
+        <li><a href="./SEC01-BP07">SEC01-BP07: Identify threats and prioritize mitigations using a threat model</a></li>
+        <li><a href="./SEC01-BP08">SEC01-BP08: Evaluate and implement new security services and features regularly</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="question-card">
-    <h3>SEC02 - How do you manage identities for people and machines?</h3>
-    <a href="./SEC02">View details →</a>
+  
+  <div class="question-button">
+    <a href="javascript:void(0);">SEC02: How do you manage identities for people and machines?</a>
+    <div class="question-content">
+      <ul>
+        <li><a href="./SEC02">View all SEC02 best practices</a></li>
+        <li><a href="./SEC02-BP01">SEC02-BP01: Use strong sign-in mechanisms</a></li>
+        <li><a href="./SEC02-BP02">SEC02-BP02: Rely on a centralized identity provider</a></li>
+        <li><a href="./SEC02-BP03">SEC02-BP03: Enforce the use of temporary credentials</a></li>
+        <li><a href="./SEC02-BP04">SEC02-BP04: Store and use secrets securely</a></li>
+        <li><a href="./SEC02-BP05">SEC02-BP05: Rely on user groups or roles for access control</a></li>
+        <li><a href="./SEC02-BP06">SEC02-BP06: Use user groups or roles for access control</a></li>
+        <li><a href="./SEC02-BP07">SEC02-BP07: Implement just-in-time access mechanisms</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="question-card">
-    <h3>SEC03 - How do you manage permissions for people and machines?</h3>
-    <a href="./SEC03">View details →</a>
+  
+  <div class="question-button">
+    <a href="javascript:void(0);">SEC03: How do you manage permissions for people and machines?</a>
+    <div class="question-content">
+      <ul>
+        <li><a href="./SEC03">View all SEC03 best practices</a></li>
+        <li><a href="./SEC03-BP01">SEC03-BP01: Define access requirements</a></li>
+        <li><a href="./SEC03-BP02">SEC03-BP02: Grant least privilege access</a></li>
+        <li><a href="./SEC03-BP03">SEC03-BP03: Establish emergency access process</a></li>
+        <li><a href="./SEC03-BP04">SEC03-BP04: Reduce permissions continuously</a></li>
+        <li><a href="./SEC03-BP05">SEC03-BP05: Define permission guardrails for your organization</a></li>
+        <li><a href="./SEC03-BP06">SEC03-BP06: Manage access based on lifecycle</a></li>
+        <li><a href="./SEC03-BP07">SEC03-BP07: Analyze public and cross-account access</a></li>
+        <li><a href="./SEC03-BP08">SEC03-BP08: Share resources securely</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="question-card">
-    <h3>SEC04 - How do you detect and investigate security events?</h3>
-    <a href="./SEC04">View details →</a>
+  
+  <div class="question-button">
+    <a href="javascript:void(0);">SEC04: How do you detect and investigate security events?</a>
+    <div class="question-content">
+      <ul>
+        <li><a href="./SEC04">View all SEC04 best practices</a></li>
+        <li><a href="./SEC04-BP01">SEC04-BP01: Configure service and application logging</a></li>
+        <li><a href="./SEC04-BP02">SEC04-BP02: Analyze logs, findings, and metrics centrally</a></li>
+        <li><a href="./SEC04-BP03">SEC04-BP03: Automate alerting and responses</a></li>
+        <li><a href="./SEC04-BP04">SEC04-BP04: Develop investigation processes</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="question-card">
-    <h3>SEC05 - How do you protect your network resources?</h3>
-    <a href="./SEC05">View details →</a>
+  
+  <div class="question-button">
+    <a href="javascript:void(0);">SEC05: How do you protect your network resources?</a>
+    <div class="question-content">
+      <ul>
+        <li><a href="./SEC05">View all SEC05 best practices</a></li>
+        <li><a href="./SEC05-BP01">SEC05-BP01: Create network layers</a></li>
+        <li><a href="./SEC05-BP02">SEC05-BP02: Control traffic at all layers</a></li>
+        <li><a href="./SEC05-BP03">SEC05-BP03: Implement inspection</a></li>
+        <li><a href="./SEC05-BP04">SEC05-BP04: Automate network protection</a></li>
+        <li><a href="./SEC05-BP05">SEC05-BP05: Implement DDoS protection</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="question-card">
-    <h3>SEC06 - How do you protect your compute resources?</h3>
-    <a href="./SEC06">View details →</a>
+  
+  <div class="question-button">
+    <a href="javascript:void(0);">SEC06: How do you protect your compute resources?</a>
+    <div class="question-content">
+      <ul>
+        <li><a href="./SEC06">View all SEC06 best practices</a></li>
+        <li><a href="./SEC06-BP01">SEC06-BP01: Perform vulnerability management</a></li>
+        <li><a href="./SEC06-BP02">SEC06-BP02: Reduce attack surface</a></li>
+        <li><a href="./SEC06-BP03">SEC06-BP03: Implement managed services</a></li>
+        <li><a href="./SEC06-BP04">SEC06-BP04: Automate compute protection</a></li>
+        <li><a href="./SEC06-BP05">SEC06-BP05: Enable people to perform actions at a distance</a></li>
+        <li><a href="./SEC06-BP06">SEC06-BP06: Validate software integrity</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="question-card">
-    <h3>SEC07 - How do you classify your data?</h3>
-    <a href="./SEC07">View details →</a>
+  
+  <div class="question-button">
+    <a href="javascript:void(0);">SEC07: How do you classify your data?</a>
+    <div class="question-content">
+      <ul>
+        <li><a href="./SEC07">View all SEC07 best practices</a></li>
+        <li><a href="./SEC07-BP01">SEC07-BP01: Identify the data within your workload</a></li>
+        <li><a href="./SEC07-BP02">SEC07-BP02: Define data protection controls</a></li>
+        <li><a href="./SEC07-BP03">SEC07-BP03: Automate identification and classification</a></li>
+        <li><a href="./SEC07-BP04">SEC07-BP04: Define data lifecycle management</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="question-card">
-    <h3>SEC08 - How do you protect your data at rest?</h3>
-    <a href="./SEC08">View details →</a>
+  
+  <div class="question-button">
+    <a href="javascript:void(0);">SEC08: How do you protect your data at rest?</a>
+    <div class="question-content">
+      <ul>
+        <li><a href="./SEC08">View all SEC08 best practices</a></li>
+        <li><a href="./SEC08-BP01">SEC08-BP01: Implement secure key management</a></li>
+        <li><a href="./SEC08-BP02">SEC08-BP02: Enforce encryption at rest</a></li>
+        <li><a href="./SEC08-BP03">SEC08-BP03: Automate data at rest protection</a></li>
+        <li><a href="./SEC08-BP04">SEC08-BP04: Enforce access control</a></li>
+        <li><a href="./SEC08-BP05">SEC08-BP05: Use mechanisms to keep people away from data</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="question-card">
-    <h3>SEC09 - How do you protect your data in transit?</h3>
-    <a href="./SEC09">View details →</a>
+  
+  <div class="question-button">
+    <a href="javascript:void(0);">SEC09: How do you protect your data in transit?</a>
+    <div class="question-content">
+      <ul>
+        <li><a href="./SEC09">View all SEC09 best practices</a></li>
+        <li><a href="./SEC09-BP01">SEC09-BP01: Implement secure key and certificate management</a></li>
+        <li><a href="./SEC09-BP02">SEC09-BP02: Enforce encryption in transit</a></li>
+        <li><a href="./SEC09-BP03">SEC09-BP03: Automate detection of unintended data access</a></li>
+        <li><a href="./SEC09-BP04">SEC09-BP04: Authenticate network communications</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="question-card">
-    <h3>SEC10 - How do you anticipate, respond to, and recover from incidents?</h3>
-    <a href="./SEC10">View details →</a>
+  
+  <div class="question-button">
+    <a href="javascript:void(0);">SEC10: How do you anticipate, respond to, and recover from incidents?</a>
+    <div class="question-content">
+      <ul>
+        <li><a href="./SEC10">View all SEC10 best practices</a></li>
+        <li><a href="./SEC10-BP01">SEC10-BP01: Identify key personnel and external resources</a></li>
+        <li><a href="./SEC10-BP02">SEC10-BP02: Develop incident management plans</a></li>
+        <li><a href="./SEC10-BP03">SEC10-BP03: Prepare forensic capabilities</a></li>
+        <li><a href="./SEC10-BP04">SEC10-BP04: Automate containment capability</a></li>
+        <li><a href="./SEC10-BP05">SEC10-BP05: Pre-provision access</a></li>
+        <li><a href="./SEC10-BP06">SEC10-BP06: Practice incident response</a></li>
+        <li><a href="./SEC10-BP07">SEC10-BP07: Automate recovery</a></li>
+        <li><a href="./SEC10-BP08">SEC10-BP08: Communicate status</a></li>
+        <li><a href="./SEC10-BP09">SEC10-BP09: Learn from incidents</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="question-card">
-    <h3>SEC11 - How do you securely manage your AI workloads?</h3>
-    <a href="./SEC11">View details →</a>
+  
+  <div class="question-button">
+    <a href="javascript:void(0);">SEC11: How do you securely manage your AI workloads?</a>
+    <div class="question-content">
+      <ul>
+        <li><a href="./SEC11">View all SEC11 best practices</a></li>
+        <li><a href="./SEC11-BP01">SEC11-BP01: Identify and manage risks in AI workloads</a></li>
+        <li><a href="./SEC11-BP02">SEC11-BP02: Implement data governance for AI workloads</a></li>
+        <li><a href="./SEC11-BP03">SEC11-BP03: Implement model governance for AI workloads</a></li>
+        <li><a href="./SEC11-BP04">SEC11-BP04: Implement application security for AI workloads</a></li>
+        <li><a href="./SEC11-BP05">SEC11-BP05: Implement infrastructure security for AI workloads</a></li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -116,7 +222,71 @@ The AWS Well-Architected Framework provides a set of questions that allows you t
   <h2>Related Resources</h2>
   <ul>
     <li><a href="https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html">AWS Well-Architected Framework - Security Pillar</a></li>
-    <li><a href="https://docs.aws.amazon.com/security/">AWS Security Documentation</a></li>
+    <li><a href="https://aws.amazon.com/security/security-learning/">AWS Security Learning</a></li>
     <li><a href="https://aws.amazon.com/blogs/security/">AWS Security Blog</a></li>
   </ul>
 </div>
+
+<style>
+.question-accordion {
+  margin-bottom: 2rem;
+}
+
+.question-button {
+  border: 1px solid #ffcca5;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  background-color: #ffead7;
+  overflow: hidden;
+}
+
+.question-button > a {
+  display: block;
+  padding: 1rem;
+  color: #ff6a00;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+}
+
+.question-button > a:after {
+  content: '+';
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+}
+
+.question-button > a:hover {
+  background-color: #ffcca5;
+}
+
+.question-content {
+  display: none;
+  padding: 0 1rem 1rem 1rem;
+  background-color: #fff;
+  border-top: 1px solid #ffcca5;
+}
+
+.question-content ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+
+.question-content li {
+  margin-bottom: 0.5rem;
+}
+
+.question-content li a {
+  color: #ff6a00;
+  text-decoration: none;
+}
+
+.question-content li a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<script src="/assets/js/security-accordion.js"></script>
