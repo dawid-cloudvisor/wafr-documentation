@@ -1,2 +1,0 @@
-Incident management:
-https://aws.amazon.com/what-is/incident-management/

@@ -1,4 +1,0 @@
-https://aws.amazon.com/blogs/mt/use-port-forwarding-in-aws-systems-manager-session-manager-to-connect-to-remote-hosts/#:~:text=Use%20port%20forwarding%20in%20AWS%20Systems%20Manager%20Session,4%20Step%204%3A%20Connect%20using%20SQL%20Workbench%2FJ%20
-
-
-https://rebecca-goh.medium.com/using-aws-ssm-systems-manager-to-connect-to-rds-instance-17f95bff1380
