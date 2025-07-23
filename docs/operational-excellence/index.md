@@ -1,7 +1,7 @@
 ---
 title: Operational Excellence
 layout: default
-nav_order: 2
+nav_order: 6
 has_children: true
 permalink: /docs/operational-excellence
 ---

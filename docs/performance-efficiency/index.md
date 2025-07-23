@@ -1,7 +1,7 @@
 ---
 title: Performance Efficiency
 layout: default
-nav_order: 2
+nav_order: 5
 has_children: true
 permalink: /docs/performance-efficiency
 ---
