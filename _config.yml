@@ -1,8 +1,10 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: AWS Well-Architected Framework Documentation
+description: Comprehensive documentation of AWS Well-Architected Framework organized by pillars and questions
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://dawid-cloudvisor.github.io/wafr-documentation
 
 aux_links:
+  AWS Well-Architected Framework: https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
+  GitHub Repository: https://github.com/dawid-cloudvisor/wafr-documentation
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
