@@ -1,0 +1,114 @@
+/* Custom styles for pillar pages */
+
+.pillar-header {
+  background-color: #ffead7;
+  border-left: 5px solid #ff6a00;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pillar-header h1 {
+  color: #ff6a00;
+  margin-bottom: 0.5rem;
+}
+
+.pillar-header p {
+  margin-bottom: 0;
+}
+
+.question-card {
+  border: 1px solid #ffcca5;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #ffead7;
+  transition: transform 0.2s ease-in-out;
+}
+
+.question-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(255, 106, 0, 0.1);
+}
+
+.question-card h3 {
+  color: #ff6a00;
+  margin-top: 0;
+}
+
+.question-card a {
+  color: #ff6a00;
+  text-decoration: none;
+}
+
+.question-card a:hover {
+  text-decoration: underline;
+}
+
+.best-practice {
+  border-left: 3px solid #ff6a00;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.best-practice h4 {
+  color: #ff6a00;
+  margin-top: 0;
+}
+
+.implementation-step {
+  background-color: #ffead7;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.implementation-step h4 {
+  color: #ff6a00;
+  margin-top: 0;
+}
+
+.aws-service {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.aws-service-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.aws-service-content h4 {
+  color: #ff6a00;
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.related-resources {
+  background-color: #ffead7;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.related-resources h2 {
+  color: #ff6a00;
+  margin-top: 0;
+}
+
+.related-resources ul {
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pillar-header {
+    padding: 0.75rem;
+  }
+  
+  .question-card {
+    padding: 0.75rem;
+  }
+}

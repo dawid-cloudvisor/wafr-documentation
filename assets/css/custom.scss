@@ -1,0 +1,115 @@
+---
+---
+
+// Custom variables
+$orange-000: #ffead7;
+$orange-100: #ffcca5;
+$orange-200: #ffac70;
+$orange-300: #ff8b3e;
+$orange-400: #ff6a00; // Main orange color
+$orange-500: #d95c00;
+$orange-600: #b34d00;
+$orange-700: #8c3d00;
+$orange-800: #662d00;
+$orange-900: #401c00;
+
+// Override theme color variables
+$link-color: $orange-400;
+$btn-primary-color: $orange-400;
+$base-button-color: $orange-400;
+
+$sidebar-color: $orange-000;
+$body-heading-color: $orange-700;
+$nav-child-link-color: $orange-600;
+$search-result-preview-color: $orange-400;
+$border-color: $orange-200;
+
+// Override component variables
+$body-background-color: #ffffff;
+$body-text-color: #333333;
+$code-background-color: $orange-000;
+$search-background-color: $orange-000;
+$table-background-color: $orange-000;
+$feedback-color: darken($sidebar-color, 3%);
+
+// Override link colors
+a {
+  color: $orange-400;
+  &:hover {
+    color: $orange-600;
+  }
+}
+
+// Override navigation styling
+.site-header {
+  background-color: $orange-400;
+  border-bottom: 1px solid $orange-200;
+  
+  a {
+    color: white;
+  }
+}
+
+.site-title {
+  color: white !important;
+  
+  &:hover {
+    background-image: none;
+    background-color: $orange-500;
+  }
+}
+
+.navigation-list-link {
+  &.active {
+    color: $orange-600;
+  }
+  
+  &:hover {
+    color: $orange-500;
+  }
+}
+
+// Override button styling
+.btn {
+  &.btn-primary {
+    background-color: $orange-400;
+    background-image: linear-gradient($orange-300, $orange-400);
+    
+    &:hover {
+      background-color: $orange-500;
+      background-image: linear-gradient($orange-400, $orange-500);
+    }
+  }
+}
+
+// Override search styling
+.search-input {
+  background-color: white;
+  border: 1px solid $orange-200;
+  
+  &:focus {
+    border-color: $orange-400;
+  }
+}
+
+// Custom logo styling
+.site-logo {
+  width: 200px;
+  height: auto;
+}
+
+// Custom header with logo
+.site-header {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+// Custom footer
+.site-footer {
+  background-color: $orange-000;
+  border-top: 1px solid $orange-200;
+  padding: 1rem;
+  text-align: center;
+}

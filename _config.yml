@@ -4,7 +4,21 @@ theme: just-the-docs
 
 url: https://dawid-cloudvisor.github.io/wafr-documentation
 
+# Logo configuration
+logo: "/assets/images/logo-cloudvisor.jpg"
+
+# Color scheme
+color_scheme: nil
+
+# Enable custom CSS
+sass:
+  sass_dir: assets/css
+
+# Include custom CSS
 aux_links:
   AWS Well-Architected Framework: https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
   GitHub Repository: https://github.com/dawid-cloudvisor/wafr-documentation
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+# Footer content
+footer_content: "Copyright &copy; 2025 Cloudvisor. Distributed under the <a href=\"https://github.com/dawid-cloudvisor/wafr-documentation/blob/main/LICENSE\">MIT license.</a>"
