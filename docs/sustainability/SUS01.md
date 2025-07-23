@@ -4,43 +4,67 @@ layout: default
 parent: Sustainability
 nav_order: 1
 ---
+<div class="pillar-header">
+  <h1>SUS01: How do you select Regions to support your sustainability goals?</h1>
+  <p>*This page contains guidance for addressing this question from the AWS Well-Architected Framework.*</p>
+</div>
 
-# SUS01: How do you select Regions to support your sustainability goals?
-
-Choose Regions near Amazon's renewable energy projects or where the grid has a published carbon intensity that meets your renewable energy or carbon reduction goals.
 
 ## Best Practices
 
-### Choose Regions based on your business requirements and sustainability goals
-Evaluate the Regions that meet your business requirements and factor in your sustainability goals when making the final selection. Consider the published sustainability information for each Region, such as Regions with lower carbon intensity.
+<div class="best-practice">
+  <h4>Best Practice</h4>
+  <p>*Add best practices for this question here.*</p>
+</div>
 
-### Choose Regions close to users to minimize network traffic required
-Minimize the network resources required to serve requests by selecting Regions close to your users. This reduces the energy required to deliver your service.
-
-### Choose Regions where renewable energy is a higher percentage of the grid power
-Choose Regions where the grid power has a higher percentage of renewable energy. AWS publishes information about the grid mix in each Region.
 
 ## Implementation Guidance
 
-1. **Understand your sustainability goals**: Define clear sustainability objectives for your organization.
+<div class="implementation-step">
+  <h4>1. Step 1</h4>
+  <p>Description of first implementation step.</p>
+</div>
 
-2. **Evaluate Region options**: Research AWS Regions based on their renewable energy usage and carbon footprint.
+<div class="implementation-step">
+  <h4>2. Step 2</h4>
+  <p>Description of second implementation step.</p>
+</div>
 
-3. **Consider proximity to users**: Choose Regions that minimize network distance to your primary user base.
+<div class="implementation-step">
+  <h4>3. Step 3</h4>
+  <p>Description of third implementation step.</p>
+</div>
 
-4. **Balance multiple factors**: Make Region selections that balance business requirements, performance needs, and sustainability goals.
-
-5. **Monitor and adjust**: Regularly review your Region choices as AWS expands renewable energy projects and as your business needs evolve.
 
 ## AWS Services to Consider
 
-- **AWS Global Infrastructure** - For understanding the AWS Region footprint and characteristics
-- **Amazon CloudFront** - For content delivery with reduced latency and network traffic
-- **AWS Global Accelerator** - For improving availability and performance using the AWS global network
+<div class="aws-service">
+  <div class="aws-service-content">
+    <h4>Service 1</h4>
+    <p>Description of how this service helps</p>
+  </div>
+</div>
 
-## Related Resources
+<div class="aws-service">
+  <div class="aws-service-content">
+    <h4>Service 2</h4>
+    <p>Description of how this service helps</p>
+  </div>
+</div>
 
-- [AWS Well-Architected Framework - Sustainability Pillar](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/welcome.html)
-- [AWS Sustainability](https://sustainability.aboutamazon.com/environment/the-cloud)
-- [AWS and Sustainability](https://aws.amazon.com/about-aws/sustainability/)
-- [AWS Carbon Footprint Tool](https://aws.amazon.com/aws-cost-management/aws-customer-carbon-footprint-tool/)
+<div class="aws-service">
+  <div class="aws-service-content">
+    <h4>Service 3</h4>
+    <p>Description of how this service helps</p>
+  </div>
+</div>
+
+
+<div class="related-resources">
+  <h2>Related Resources</h2>
+  <ul>
+    <li><a href="https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/welcome.html">AWS Well-Architected Framework - Sustainability Pillar</a></li>
+    <li><a href="https://aws.amazon.com/">Related Documentation Link 1</a></li>
+    <li><a href="https://aws.amazon.com/">Related Documentation Link 2</a></li>
+  </ul>
+</div>

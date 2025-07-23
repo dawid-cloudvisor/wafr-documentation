@@ -1,32 +1,86 @@
 ---
 title: Sustainability
 layout: default
-nav_order: 7
+nav_order: 2
 has_children: true
 permalink: /docs/sustainability
 ---
 
-# Sustainability Pillar
+<div class="pillar-header">
+  <h1>Sustainability Pillar</h1>
+  <p>The sustainability pillar focuses on minimizing the environmental impacts of running cloud workloads. Key topics include a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts.</p>
+</div>
 
-The sustainability pillar focuses on minimizing the environmental impacts of running cloud workloads. Key topics include a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts.
+The Sustainability pillar includes the ability to support development and run workloads effectively, gain insight into their operations, and to continuously improve supporting processes and procedures to deliver business value.
 
 ## Key Areas
 
 The Sustainability pillar includes the following key areas:
 
-- Region Selection
-- User Behavior Patterns
-- Software and Architecture Patterns
-- Data Patterns
-- Hardware Patterns
-- Development and Deployment Process
+- **Region Selection** - Choosing Regions with lower carbon footprints
+- **User Behavior Patterns** - Aligning user needs with sustainable practices
+- **Software and Architecture Patterns** - Designing efficient applications
+- **Data Patterns** - Implementing lifecycle policies and storage tiering
+- **Hardware Patterns** - Using the minimum amount of hardware to meet your needs
+- **Development and Deployment Process** - Optimizing development and testing environments
 
 ## Questions
 
 The AWS Well-Architected Framework provides a set of questions that allows you to review an existing or proposed architecture. It also provides a set of AWS best practices for each pillar.
 
-{% for child in site.pages %}
-  {% if child.parent == page.title %}
-  - [{{ child.title }}]({{ child.url | absolute_url }})
-  {% endif %}
-{% endfor %}
+<div class="question-cards">
+  {% for child in site.pages %}
+    {% if child.parent == page.title %}
+      <div class="question-card">
+        <h3>{{ child.title }}</h3>
+        <a href="{{ child.url | absolute_url }}">View details →</a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+## AWS Services for {title}
+
+<div class="aws-service">
+  <div class="aws-service-content">
+    <h4>AWS Customer Carbon Footprint Tool</h4>
+    <p>Provides visibility into the carbon emissions associated with your AWS usage.</p>
+  </div>
+</div>
+
+<div class="aws-service">
+  <div class="aws-service-content">
+    <h4>Amazon EC2 Auto Scaling</h4>
+    <p>Helps ensure you have the correct number of instances available to handle your application load.</p>
+  </div>
+</div>
+
+<div class="aws-service">
+  <div class="aws-service-content">
+    <h4>Amazon S3 Lifecycle Configurations</h4>
+    <p>Automates moving objects to more cost-effective storage classes or deleting them.</p>
+  </div>
+</div>
+
+<div class="aws-service">
+  <div class="aws-service-content">
+    <h4>AWS Graviton Processors</h4>
+    <p>Deliver better price performance for your cloud workloads with lower energy consumption.</p>
+  </div>
+</div>
+
+<div class="aws-service">
+  <div class="aws-service-content">
+    <h4>AWS Compute Optimizer</h4>
+    <p>Helps you identify idle and underutilized resources.</p>
+  </div>
+</div>
+
+<div class="related-resources">
+  <h2>Related Resources</h2>
+  <ul>
+    <li><a href="https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/welcome.html">AWS Well-Architected Framework - Sustainability Pillar</a></li>
+    <li><a href="https://sustainability.aboutamazon.com/environment/the-cloud">AWS Sustainability</a></li>
+    <li><a href="https://aws.amazon.com/about-aws/sustainability/">AWS and Sustainability</a></li>
+  </ul>
+</div>

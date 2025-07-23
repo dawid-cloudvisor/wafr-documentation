@@ -37,7 +37,7 @@ The AWS Well-Architected Framework provides a set of questions that allows you t
   {% endfor %}
 </div>
 
-## AWS Services for Operational Excellence
+## AWS Services for {title}
 
 <div class="aws-service">
   <div class="aws-service-content">
