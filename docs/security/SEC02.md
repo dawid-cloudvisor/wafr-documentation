@@ -2,69 +2,93 @@
 title: SEC02 - How do you manage identities for people and machines?
 layout: default
 parent: Security
+has_children: true
 nav_order: 2
 ---
+
 <div class="pillar-header">
   <h1>SEC02: How do you manage identities for people and machines?</h1>
-  <p>*This page contains guidance for addressing this question from the AWS Well-Architected Framework.*</p>
+  <p>There are two types of identities you need to manage when approaching operating secure AWS workloads. Understanding the type of identity you need to manage and grant access helps you ensure the right identities have access to the right resources under the right conditions.</p>
 </div>
-
 
 ## Best Practices
 
-<div class="best-practice">
-  <h4>Best Practice</h4>
-  <p>*Add best practices for this question here.*</p>
+This question includes the following best practices:
+
+<div class="best-practices-list">
+  <ul>
+    <li><a href="./SEC02-BP01">SEC02-BP01: Use strong sign-in mechanisms</a></li>
+    <li><a href="./SEC02-BP02">SEC02-BP02: Rely on a centralized identity provider</a></li>
+    <li><a href="./SEC02-BP03">SEC02-BP03: Enforce the use of temporary credentials</a></li>
+    <li><a href="./SEC02-BP04">SEC02-BP04: Store and use secrets securely</a></li>
+    <li><a href="./SEC02-BP05">SEC02-BP05: Rely on user groups or roles for access control</a></li>
+    <li><a href="./SEC02-BP06">SEC02-BP06: Use user groups or roles for access control</a></li>
+    <li><a href="./SEC02-BP07">SEC02-BP07: Implement just-in-time access mechanisms</a></li>
+  </ul>
 </div>
-
-
-## Implementation Guidance
-
-<div class="implementation-step">
-  <h4>1. Step 1</h4>
-  <p>Description of first implementation step.</p>
-</div>
-
-<div class="implementation-step">
-  <h4>2. Step 2</h4>
-  <p>Description of second implementation step.</p>
-</div>
-
-<div class="implementation-step">
-  <h4>3. Step 3</h4>
-  <p>Description of third implementation step.</p>
-</div>
-
 
 ## AWS Services to Consider
 
 <div class="aws-service">
   <div class="aws-service-content">
-    <h4>Service 1</h4>
-    <p>Description of how this service helps</p>
+    <h4>AWS Identity and Access Management (IAM)</h4>
+    <p>Enables you to manage access to AWS services and resources securely.</p>
   </div>
 </div>
 
 <div class="aws-service">
   <div class="aws-service-content">
-    <h4>Service 2</h4>
-    <p>Description of how this service helps</p>
+    <h4>AWS IAM Identity Center</h4>
+    <p>Helps you securely create or connect your workforce identities and manage their access centrally across AWS accounts and applications.</p>
   </div>
 </div>
 
 <div class="aws-service">
   <div class="aws-service-content">
-    <h4>Service 3</h4>
-    <p>Description of how this service helps</p>
+    <h4>AWS Secrets Manager</h4>
+    <p>Helps you protect secrets needed to access your applications, services, and IT resources.</p>
   </div>
 </div>
 
+<div class="aws-service">
+  <div class="aws-service-content">
+    <h4>Amazon Cognito</h4>
+    <p>Provides authentication, authorization, and user management for your web and mobile apps.</p>
+  </div>
+</div>
 
 <div class="related-resources">
   <h2>Related Resources</h2>
   <ul>
     <li><a href="https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html">AWS Well-Architected Framework - Security Pillar</a></li>
-    <li><a href="https://aws.amazon.com/">Related Documentation Link 1</a></li>
-    <li><a href="https://aws.amazon.com/">Related Documentation Link 2</a></li>
+    <li><a href="https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-02.html">SEC02: How do you manage identities for people and machines?</a></li>
+    <li><a href="https://aws.amazon.com/identity/">AWS Identity Solutions</a></li>
   </ul>
 </div>
+
+<style>
+.best-practices-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.best-practices-list li {
+  background-color: #ffead7;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ffcca5;
+}
+
+.best-practices-list li a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #ff6a00;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.best-practices-list li a:hover {
+  background-color: #ffcca5;
+  border-radius: 4px;
+}
+</style>
