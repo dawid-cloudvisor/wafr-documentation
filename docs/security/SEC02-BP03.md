@@ -1,5 +1,5 @@
 ---
-title: SEC02-BP03 - Enforce the use of temporary credentials
+title: SEC02-BP03 - Store and use secrets securely
 layout: default
 parent: SEC02 - How do you manage identities for people and machines?
 grand_parent: Security
@@ -7,8 +7,8 @@ nav_order: 3
 ---
 
 <div class="pillar-header">
-  <h1>SEC02-BP03: Enforce the use of temporary credentials</h1>
-  <p>Require identities to dynamically acquire temporary credentials. For workforce identities, use AWS IAM Identity Center, or a federation with IAM roles to access AWS accounts. For machine identities, require the use of IAM roles instead of IAM users with long-term access keys.</p>
+  <h1>SEC02-BP03: Store and use secrets securely</h1>
+  <p>For workforce and machine identities that require secrets, such as passwords to third-party applications, store them with automatic rotation using the latest industry standards in a specialized service.</p>
 </div>
 
 ## Implementation guidance

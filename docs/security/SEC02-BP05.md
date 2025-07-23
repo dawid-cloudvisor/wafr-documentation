@@ -1,5 +1,5 @@
 ---
-title: SEC02-BP05 - Rely on user groups or roles for access control
+title: SEC02-BP05 - Audit and rotate credentials periodically
 layout: default
 parent: SEC02 - How do you manage identities for people and machines?
 grand_parent: Security
@@ -7,8 +7,8 @@ nav_order: 5
 ---
 
 <div class="pillar-header">
-  <h1>SEC02-BP05: Rely on user groups or roles for access control</h1>
-  <p>Instead of defining permissions for individual users, grant permissions to user groups or roles that are created based on job function. Then manage users in those user groups or roles.</p>
+  <h1>SEC02-BP05: Audit and rotate credentials periodically</h1>
+  <p>When you cannot rely on temporary credentials and need to use long-term credentials, audit the credentials to ensure that the defined controls (such as MFA) are enforced, rotated regularly, and have the appropriate level of access.</p>
 </div>
 
 ## Implementation guidance

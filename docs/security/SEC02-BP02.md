@@ -1,5 +1,5 @@
 ---
-title: SEC02-BP02 - Rely on a centralized identity provider
+title: SEC02-BP02 - Use temporary credentials
 layout: default
 parent: SEC02 - How do you manage identities for people and machines?
 grand_parent: Security
@@ -7,80 +7,50 @@ nav_order: 2
 ---
 
 <div class="pillar-header">
-  <h1>SEC02-BP02: Rely on a centralized identity provider</h1>
-  <p>For workforce identities (your employees, contractors, and partners), rely on an identity provider that enables you to manage identities in a centralized place. This makes it easier to manage access across multiple applications and services because you are creating, managing, and revoking access from a single location.</p>
+  <h1>SEC02-BP02: Use temporary credentials</h1>
+  <p>Require identities to dynamically acquire temporary credentials. For workforce identities, use AWS IAM Identity Center, or a federation with IAM roles to access AWS accounts. For machine identities, require the use of IAM roles instead of IAM users with long-term access keys.</p>
 </div>
 
 ## Implementation guidance
 
-Centralizing identity management provides numerous benefits, including simplified user management, consistent security policies, and improved user experience. By using a centralized identity provider, you can manage access across multiple AWS accounts and applications from a single location.
-
 ### Key steps for implementing this best practice:
 
-1. **Choose a centralized identity provider**:
-   - Use AWS IAM Identity Center as your primary identity provider
-   - Or integrate with your existing identity provider:
-     - Microsoft Active Directory (on-premises or AWS Managed Microsoft AD)
-     - Azure Active Directory
-     - Okta, Ping Identity, or other SAML 2.0 compatible providers
-   - Consider your organization's existing investments and requirements
+1. **Step 1**: Description of first implementation step.
 
-2. **Configure federation between AWS and your identity provider**:
-   - Set up SAML 2.0 federation
-   - Configure attribute mapping to pass user attributes to AWS
-   - Establish trust relationships between your identity provider and AWS
+2. **Step 2**: Description of second implementation step.
 
-3. **Implement single sign-on (SSO)**:
-   - Enable SSO for AWS Management Console access
-   - Configure SSO for AWS CLI and SDK access
-   - Extend SSO to other business applications
+3. **Step 3**: Description of third implementation step.
 
-4. **Manage user lifecycle centrally**:
-   - Implement automated user provisioning and deprovisioning
-   - Synchronize user attributes and group memberships
-   - Establish processes for handling user role changes
-
-5. **Apply consistent security policies**:
-   - Enforce MFA through your identity provider
-   - Implement consistent password policies
-   - Apply conditional access policies based on user, device, and network context
+4. **Step 4**: Description of fourth implementation step.
 
 ## AWS services to consider
 
 <div class="aws-service">
   <div class="aws-service-content">
-    <h4>AWS IAM Identity Center</h4>
-    <p>Helps you securely create or connect your workforce identities and manage their access centrally across AWS accounts and applications. Provides built-in identity store or integrates with your existing identity provider.</p>
+    <h4>AWS Service 1</h4>
+    <p>Description of how this service helps with this best practice.</p>
   </div>
 </div>
 
 <div class="aws-service">
   <div class="aws-service-content">
-    <h4>AWS Directory Service</h4>
-    <p>Provides multiple ways to use Microsoft Active Directory (AD) with other AWS services. Includes AWS Managed Microsoft AD, Simple AD, and AD Connector.</p>
+    <h4>AWS Service 2</h4>
+    <p>Description of how this service helps with this best practice.</p>
   </div>
 </div>
 
 <div class="aws-service">
   <div class="aws-service-content">
-    <h4>AWS Identity and Access Management (IAM)</h4>
-    <p>Enables you to manage access to AWS services and resources securely. Supports identity federation with external identity providers.</p>
-  </div>
-</div>
-
-<div class="aws-service">
-  <div class="aws-service-content">
-    <h4>Amazon Cognito</h4>
-    <p>Provides authentication, authorization, and user management for your web and mobile apps. Can be used as an identity provider for customer-facing applications.</p>
+    <h4>AWS Service 3</h4>
+    <p>Description of how this service helps with this best practice.</p>
   </div>
 </div>
 
 <div class="related-resources">
   <h2>Related Resources</h2>
   <ul>
-    <li><a href="https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identity_management_centralized_identity.html">AWS Well-Architected Framework - Rely on a centralized identity provider</a></li>
-    <li><a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html">AWS IAM Identity Center User Guide</a></li>
-    <li><a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers.html">Identity providers and federation in IAM</a></li>
-    <li><a href="https://aws.amazon.com/blogs/security/the-next-evolution-in-aws-single-sign-on/">The next evolution in AWS Single Sign-On</a></li>
+    <li><a href="https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html">AWS Well-Architected Framework - Security Pillar</a></li>
+    <li><a href="https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-02.html">SEC02: How do you manage identities for people and machines?</a></li>
+    <li><a href="https://aws.amazon.com/identity/">AWS Identity Solutions</a></li>
   </ul>
 </div>

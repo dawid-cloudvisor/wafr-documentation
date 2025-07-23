@@ -1,5 +1,5 @@
 ---
-title: SEC02-BP06 - Use user groups or roles for access control
+title: SEC02-BP06 - Employ user groups and attributes
 layout: default
 parent: SEC02 - How do you manage identities for people and machines?
 grand_parent: Security
@@ -7,8 +7,8 @@ nav_order: 6
 ---
 
 <div class="pillar-header">
-  <h1>SEC02-BP06: Use user groups or roles for access control</h1>
-  <p>Instead of defining permissions for individual users, grant permissions to user groups or roles that are created based on job function. Then manage users in those user groups or roles.</p>
+  <h1>SEC02-BP06: Employ user groups and attributes</h1>
+  <p>As the number of users you manage grows, you need to reduce the overhead of managing access. Place users with common security requirements in groups defined by your identity provider, and put mechanisms in place to ensure that user attributes that may be used for access control (such as department or location) are correct and updated.</p>
 </div>
 
 ## Implementation guidance
