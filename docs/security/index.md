@@ -34,7 +34,7 @@ The Security pillar includes the ability to protect information, systems, and as
   </div>
   
   <div class="question-button">
-    <a href="javascript:void(0);">SEC02: How do you manage identities for people and machines?</a>
+    <a href="javascript:void(0);">SEC02: How do you manage authentication for people and machines?</a>
     <div class="question-content">
       <ul>
         <li><a href="./SEC02">View all SEC02 best practices</a></li>

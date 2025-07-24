@@ -1,7 +1,7 @@
 ---
 title: SEC02-BP01 - Use strong sign-in mechanisms
 layout: default
-parent: SEC02 - How do you manage identities for people and machines?
+parent: SEC02 - How do you manage authentication for people and machines?
 grand_parent: Security
 nav_order: 1
 ---

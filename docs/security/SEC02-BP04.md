@@ -1,7 +1,7 @@
 ---
 title: SEC02-BP04 - Rely on a centralized identity provider
 layout: default
-parent: SEC02 - How do you manage identities for people and machines?
+parent: SEC02 - How do you manage authentication for people and machines?
 grand_parent: Security
 nav_order: 4
 ---

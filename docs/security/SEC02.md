@@ -1,5 +1,5 @@
 ---
-title: SEC02 - How do you manage identities for people and machines?
+title: SEC02 - How do you manage authentication for people and machines?
 layout: default
 parent: Security
 has_children: true
@@ -7,7 +7,7 @@ nav_order: 2
 ---
 
 <div class="pillar-header">
-  <h1>SEC02: How do you manage identities for people and machines?</h1>
+  <h1>SEC02: How do you manage authentication for people and machines?</h1>
   <p>There are two types of identities you need to manage when approaching operating secure AWS workloads. Understanding the type of identity you need to manage and grant access helps you ensure the right identities have access to the right resources under the right conditions.</p>
 </div>
 
@@ -60,7 +60,7 @@ This question includes the following best practices:
   <h2>Related Resources</h2>
   <ul>
     <li><a href="https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html">AWS Well-Architected Framework - Security Pillar</a></li>
-    <li><a href="https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-02.html">SEC02: How do you manage identities for people and machines?</a></li>
+    <li><a href="https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-02.html">SEC02: How do you manage authentication for people and machines?</a></li>
     <li><a href="https://aws.amazon.com/identity/">AWS Identity Solutions</a></li>
   </ul>
 </div>
