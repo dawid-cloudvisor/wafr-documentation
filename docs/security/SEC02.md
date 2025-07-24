@@ -17,12 +17,12 @@ This question includes the following best practices:
 
 <div class="best-practices-list">
   <ul>
-    <li><a href="SEC02-BP01.html">SEC02-BP01: Use strong sign-in mechanisms</a></li>
-    <li><a href="SEC02-BP02.html">SEC02-BP02: Use temporary credentials</a></li>
-    <li><a href="SEC02-BP03.html">SEC02-BP03: Store and use secrets securely</a></li>
-    <li><a href="SEC02-BP04.html">SEC02-BP04: Rely on a centralized identity provider</a></li>
-    <li><a href="SEC02-BP05.html">SEC02-BP05: Audit and rotate credentials periodically</a></li>
-    <li><a href="SEC02-BP06.html">SEC02-BP06: Employ user groups and attributes</a></li>
+    <li><a href="./SEC02-BP01.html">SEC02-BP01: Use strong sign-in mechanisms</a></li>
+    <li><a href="./SEC02-BP02.html">SEC02-BP02: Use temporary credentials</a></li>
+    <li><a href="./SEC02-BP03.html">SEC02-BP03: Store and use secrets securely</a></li>
+    <li><a href="./SEC02-BP04.html">SEC02-BP04: Rely on a centralized identity provider</a></li>
+    <li><a href="./SEC02-BP05.html">SEC02-BP05: Audit and rotate credentials periodically</a></li>
+    <li><a href="./SEC02-BP06.html">SEC02-BP06: Employ user groups and attributes</a></li>
   </ul>
 </div>
 

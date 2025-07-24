@@ -29,47 +29,47 @@ The AWS Well-Architected Framework provides a set of questions that allows you t
 <div class="question-cards">
   <div class="question-card">
     <h3>OPS01 - How do you determine what your priorities are?</h3>
-    <a href="OPS01.html">View details →</a>
+    <a href="./OPS01.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>OPS02 - How do you structure your organization to support your business outcomes?</h3>
-    <a href="OPS02.html">View details →</a>
+    <a href="./OPS02.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>OPS03 - How does your organizational culture support your business outcomes?</h3>
-    <a href="OPS03.html">View details →</a>
+    <a href="./OPS03.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>OPS04 - How do you design your workload so that you can understand its state?</h3>
-    <a href="OPS04.html">View details →</a>
+    <a href="./OPS04.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>OPS05 - How do you reduce defects, ease remediation, and improve flow into production?</h3>
-    <a href="OPS05.html">View details →</a>
+    <a href="./OPS05.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>OPS06 - How do you mitigate deployment risks?</h3>
-    <a href="OPS06.html">View details →</a>
+    <a href="./OPS06.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>OPS07 - How do you know that you are ready to support a workload?</h3>
-    <a href="OPS07.html">View details →</a>
+    <a href="./OPS07.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>OPS08 - How do you understand the health of your workload?</h3>
-    <a href="OPS08.html">View details →</a>
+    <a href="./OPS08.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>OPS09 - How do you understand the health of your operations?</h3>
-    <a href="OPS09.html">View details →</a>
+    <a href="./OPS09.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>OPS10 - How do you manage workload and operations events?</h3>
-    <a href="OPS10.html">View details →</a>
+    <a href="./OPS10.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>OPS11 - How do you evolve operations?</h3>
-    <a href="OPS11.html">View details →</a>
+    <a href="./OPS11.html">View details →</a>
   </div>
 </div>
 
