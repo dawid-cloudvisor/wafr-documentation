@@ -17,15 +17,15 @@ This question includes the following best practices:
 
 <div class="best-practices-list">
   <ul>
-    <li><a href="./SEC03-BP01">SEC03-BP01: Define access requirements</a></li>
-    <li><a href="./SEC03-BP02">SEC03-BP02: Grant least privilege access</a></li>
-    <li><a href="./SEC03-BP03">SEC03-BP03: Establish emergency access process</a></li>
-    <li><a href="./SEC03-BP04">SEC03-BP04: Reduce permissions continuously</a></li>
-    <li><a href="./SEC03-BP05">SEC03-BP05: Define permission guardrails for your organization</a></li>
-    <li><a href="./SEC03-BP06">SEC03-BP06: Manage access based on lifecycle</a></li>
-    <li><a href="./SEC03-BP07">SEC03-BP07: Analyze public and cross-account access</a></li>
-    <li><a href="./SEC03-BP08">SEC03-BP08: Share resources securely within your organization</a></li>
-    <li><a href="./SEC03-BP09">SEC03-BP09: Share resources securely with a third party</a></li>
+    <li><a href="SEC03-BP01.html">SEC03-BP01: Define access requirements</a></li>
+    <li><a href="SEC03-BP02.html">SEC03-BP02: Grant least privilege access</a></li>
+    <li><a href="SEC03-BP03.html">SEC03-BP03: Establish emergency access process</a></li>
+    <li><a href="SEC03-BP04.html">SEC03-BP04: Reduce permissions continuously</a></li>
+    <li><a href="SEC03-BP05.html">SEC03-BP05: Define permission guardrails for your organization</a></li>
+    <li><a href="SEC03-BP06.html">SEC03-BP06: Manage access based on lifecycle</a></li>
+    <li><a href="SEC03-BP07.html">SEC03-BP07: Analyze public and cross-account access</a></li>
+    <li><a href="SEC03-BP08.html">SEC03-BP08: Share resources securely within your organization</a></li>
+    <li><a href="SEC03-BP09.html">SEC03-BP09: Share resources securely with a third party</a></li>
   </ul>
 </div>
 

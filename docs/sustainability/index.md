@@ -31,27 +31,27 @@ The AWS Well-Architected Framework provides a set of questions that allows you t
 <div class="question-cards">
   <div class="question-card">
     <h3>SUS01 - How do you select Regions to support your sustainability goals?</h3>
-    <a href="./SUS01">View details →</a>
+    <a href="SUS01.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>SUS02 - How do you take advantage of user behavior patterns to support your sustainability goals?</h3>
-    <a href="./SUS02">View details →</a>
+    <a href="SUS02.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>SUS03 - How do you take advantage of software and architecture patterns to support your sustainability goals?</h3>
-    <a href="./SUS03">View details →</a>
+    <a href="SUS03.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>SUS04 - How do you take advantage of data access and usage patterns to support your sustainability goals?</h3>
-    <a href="./SUS04">View details →</a>
+    <a href="SUS04.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>SUS05 - How do you take advantage of hardware patterns to support your sustainability goals?</h3>
-    <a href="./SUS05">View details →</a>
+    <a href="SUS05.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>SUS06 - How do you take advantage of development and deployment process to support your sustainability goals?</h3>
-    <a href="./SUS06">View details →</a>
+    <a href="SUS06.html">View details →</a>
   </div>
 </div>
 

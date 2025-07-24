@@ -17,14 +17,14 @@ This question includes the following best practices:
 
 <div class="best-practices-list">
   <ul>
-    <li><a href="./SEC01-BP01">SEC01-BP01: Separate workloads using accounts</a></li>
-    <li><a href="./SEC01-BP02">SEC01-BP02: Secure account root user and properties</a></li>
-    <li><a href="./SEC01-BP03">SEC01-BP03: Identify and validate control objectives</a></li>
-    <li><a href="./SEC01-BP04">SEC01-BP04: Stay up to date with security threats and recommendations</a></li>
-    <li><a href="./SEC01-BP05">SEC01-BP05: Reduce security management scope</a></li>
-    <li><a href="./SEC01-BP06">SEC01-BP06: Automate deployment of standard security controls</a></li>
-    <li><a href="./SEC01-BP07">SEC01-BP07: Identify threats and prioritize mitigations using a threat model</a></li>
-    <li><a href="./SEC01-BP08">SEC01-BP08: Evaluate and implement new security services and features regularly</a></li>
+    <li><a href="SEC01-BP01.html">SEC01-BP01: Separate workloads using accounts</a></li>
+    <li><a href="SEC01-BP02.html">SEC01-BP02: Secure account root user and properties</a></li>
+    <li><a href="SEC01-BP03.html">SEC01-BP03: Identify and validate control objectives</a></li>
+    <li><a href="SEC01-BP04.html">SEC01-BP04: Stay up to date with security threats and recommendations</a></li>
+    <li><a href="SEC01-BP05.html">SEC01-BP05: Reduce security management scope</a></li>
+    <li><a href="SEC01-BP06.html">SEC01-BP06: Automate deployment of standard security controls</a></li>
+    <li><a href="SEC01-BP07.html">SEC01-BP07: Identify threats and prioritize mitigations using a threat model</a></li>
+    <li><a href="SEC01-BP08.html">SEC01-BP08: Evaluate and implement new security services and features regularly</a></li>
   </ul>
 </div>
 

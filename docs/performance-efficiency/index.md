@@ -29,35 +29,35 @@ The AWS Well-Architected Framework provides a set of questions that allows you t
 <div class="question-cards">
   <div class="question-card">
     <h3>PERF01 - How do you select the best performing architecture?</h3>
-    <a href="./PERF01">View details →</a>
+    <a href="PERF01.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>PERF02 - How do you select your compute solution?</h3>
-    <a href="./PERF02">View details →</a>
+    <a href="PERF02.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>PERF03 - How do you select your storage solution?</h3>
-    <a href="./PERF03">View details →</a>
+    <a href="PERF03.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>PERF04 - How do you select your database solution?</h3>
-    <a href="./PERF04">View details →</a>
+    <a href="PERF04.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>PERF05 - How do you configure your networking solution?</h3>
-    <a href="./PERF05">View details →</a>
+    <a href="PERF05.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>PERF06 - How do you evolve your workload to take advantage of new releases?</h3>
-    <a href="./PERF06">View details →</a>
+    <a href="PERF06.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>PERF07 - How do you monitor your resources to ensure they are performing?</h3>
-    <a href="./PERF07">View details →</a>
+    <a href="PERF07.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>PERF08 - How do you use tradeoffs to improve performance?</h3>
-    <a href="./PERF08">View details →</a>
+    <a href="PERF08.html">View details →</a>
   </div>
 </div>
 

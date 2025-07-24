@@ -29,55 +29,55 @@ The AWS Well-Architected Framework provides a set of questions that allows you t
 <div class="question-cards">
   <div class="question-card">
     <h3>REL01 - How do you manage service quotas and constraints?</h3>
-    <a href="./REL01">View details →</a>
+    <a href="REL01.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>REL02 - How do you plan your network topology?</h3>
-    <a href="./REL02">View details →</a>
+    <a href="REL02.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>REL03 - How do you design your workload service architecture?</h3>
-    <a href="./REL03">View details →</a>
+    <a href="REL03.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>REL04 - How do you design interactions in a distributed system to prevent failures?</h3>
-    <a href="./REL04">View details →</a>
+    <a href="REL04.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>REL05 - How do you design interactions in a distributed system to mitigate or withstand failures?</h3>
-    <a href="./REL05">View details →</a>
+    <a href="REL05.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>REL06 - How do you monitor workload resources?</h3>
-    <a href="./REL06">View details →</a>
+    <a href="REL06.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>REL07 - How do you design your workload to adapt to changes in demand?</h3>
-    <a href="./REL07">View details →</a>
+    <a href="REL07.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>REL08 - How do you implement change?</h3>
-    <a href="./REL08">View details →</a>
+    <a href="REL08.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>REL09 - How do you back up data?</h3>
-    <a href="./REL09">View details →</a>
+    <a href="REL09.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>REL10 - How do you use fault isolation to protect your workload?</h3>
-    <a href="./REL10">View details →</a>
+    <a href="REL10.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>REL11 - How do you design your workload to withstand component failures?</h3>
-    <a href="./REL11">View details →</a>
+    <a href="REL11.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>REL12 - How do you test reliability?</h3>
-    <a href="./REL12">View details →</a>
+    <a href="REL12.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>REL13 - How do you plan for disaster recovery?</h3>
-    <a href="./REL13">View details →</a>
+    <a href="REL13.html">View details →</a>
   </div>
 </div>
 

@@ -30,47 +30,47 @@ The AWS Well-Architected Framework provides a set of questions that allows you t
 <div class="question-cards">
   <div class="question-card">
     <h3>COST01 - How do you implement cloud financial management?</h3>
-    <a href="./COST01">View details →</a>
+    <a href="COST01.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>COST02 - How do you govern usage?</h3>
-    <a href="./COST02">View details →</a>
+    <a href="COST02.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>COST03 - How do you monitor usage and cost?</h3>
-    <a href="./COST03">View details →</a>
+    <a href="COST03.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>COST04 - How do you decommission resources?</h3>
-    <a href="./COST04">View details →</a>
+    <a href="COST04.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>COST05 - How do you evaluate cost when you select services?</h3>
-    <a href="./COST05">View details →</a>
+    <a href="COST05.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>COST06 - How do you meet cost targets when you select resource type, size and number?</h3>
-    <a href="./COST06">View details →</a>
+    <a href="COST06.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>COST07 - How do you use pricing models to reduce cost?</h3>
-    <a href="./COST07">View details →</a>
+    <a href="COST07.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>COST08 - How do you plan for data transfer charges?</h3>
-    <a href="./COST08">View details →</a>
+    <a href="COST08.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>COST09 - How do you manage demand, and supply resources?</h3>
-    <a href="./COST09">View details →</a>
+    <a href="COST09.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>COST10 - How do you evaluate new services?</h3>
-    <a href="./COST10">View details →</a>
+    <a href="COST10.html">View details →</a>
   </div>
   <div class="question-card">
     <h3>COST11 - How do you optimize your organization's expenditure on generative AI?</h3>
-    <a href="./COST11">View details →</a>
+    <a href="COST11.html">View details →</a>
   </div>
 </div>
 
