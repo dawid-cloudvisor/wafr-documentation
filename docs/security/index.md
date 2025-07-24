@@ -88,7 +88,6 @@ The Security pillar includes the ability to protect information, systems, and as
         <li><a href="./security/SEC05-BP02.html">SEC05-BP02: Control traffic at all layers</a></li>
         <li><a href="./security/SEC05-BP03.html">SEC05-BP03: Implement inspection</a></li>
         <li><a href="./security/SEC05-BP04.html">SEC05-BP04: Automate network protection</a></li>
-        <li><a href="./security/SEC05-BP05.html">SEC05-BP05: Implement DDoS protection</a></li>
       </ul>
     </div>
   </div>

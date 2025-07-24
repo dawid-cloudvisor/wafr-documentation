@@ -21,7 +21,6 @@ This question includes the following best practices:
     <li><a href="./SEC05-BP02.html">SEC05-BP02: Control traffic at all layers</a></li>
     <li><a href="./SEC05-BP03.html">SEC05-BP03: Implement inspection and protection</a></li>
     <li><a href="./SEC05-BP04.html">SEC05-BP04: Automate network protection</a></li>
-    <li><a href="./SEC05-BP05.html">SEC05-BP05: Implement DDoS protection</a></li>
   </ul>
 </div>
 
