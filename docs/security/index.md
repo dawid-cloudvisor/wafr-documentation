@@ -60,7 +60,8 @@ The Security pillar includes the ability to protect information, systems, and as
         <li><a href="./SEC03-BP05">SEC03-BP05: Define permission guardrails for your organization</a></li>
         <li><a href="./SEC03-BP06">SEC03-BP06: Manage access based on lifecycle</a></li>
         <li><a href="./SEC03-BP07">SEC03-BP07: Analyze public and cross-account access</a></li>
-        <li><a href="./SEC03-BP08">SEC03-BP08: Share resources securely</a></li>
+        <li><a href="./SEC03-BP08">SEC03-BP08: Share resources securely within your organization</a></li>
+        <li><a href="./SEC03-BP09">SEC03-BP09: Share resources securely with a third party</a></li>
       </ul>
     </div>
   </div>
