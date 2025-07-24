@@ -18,11 +18,10 @@ This question includes the following best practices:
 <div class="best-practices-list">
   <ul>
     <li><a href="./SEC06-BP01.html">SEC06-BP01: Perform vulnerability management</a></li>
-    <li><a href="./SEC06-BP02.html">SEC06-BP02: Reduce attack surface</a></li>
-    <li><a href="./SEC06-BP03.html">SEC06-BP03: Implement managed services</a></li>
-    <li><a href="./SEC06-BP04.html">SEC06-BP04: Automate compute protection</a></li>
-    <li><a href="./SEC06-BP05.html">SEC06-BP05: Enable people to perform actions at a distance</a></li>
-    <li><a href="./SEC06-BP06.html">SEC06-BP06: Validate software integrity</a></li>
+    <li><a href="./SEC06-BP02.html">SEC06-BP02: Provision compute from hardened images</a></li>
+    <li><a href="./SEC06-BP03.html">SEC06-BP03: Reduce manual management and interactive access</a></li>
+    <li><a href="./SEC06-BP04.html">SEC06-BP04: Validate software integrity</a></li>
+    <li><a href="./SEC06-BP05.html">SEC06-BP05: Automate compute protection</a></li>
   </ul>
 </div>
 
