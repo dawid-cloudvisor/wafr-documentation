@@ -111,10 +111,10 @@ The Security pillar includes the ability to protect information, systems, and as
     <div class="question-content">
       <ul>
         <li><a href="./security/SEC07.html">View all SEC07 best practices</a></li>
-        <li><a href="./security/SEC07-BP01.html">SEC07-BP01: Identify the data within your workload</a></li>
-        <li><a href="./security/SEC07-BP02.html">SEC07-BP02: Define data protection controls</a></li>
-        <li><a href="./security/SEC07-BP03.html">SEC07-BP03: Automate identification and classification</a></li>
-        <li><a href="./security/SEC07-BP04.html">SEC07-BP04: Define data lifecycle management</a></li>
+        <li><a href="./security/SEC07-BP01.html">SEC07-BP01: Understand your data classification scheme</a></li>
+        <li><a href="./security/sec07-bp02.html">SEC07-BP02: Apply data protection controls based on data sensitivity</a></li>
+        <li><a href="./security/sec07-bp03.html">SEC07-BP03: Automate identification and classification</a></li>
+        <li><a href="./security/sec07-bp04.html">SEC07-BP04: Define scalable data lifecycle management</a></li>
       </ul>
     </div>
   </div>
