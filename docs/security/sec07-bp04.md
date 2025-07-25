@@ -1,6 +1,9 @@
 ---
 title: "SEC07-BP04: Define scalable data lifecycle management"
-sidebar_label: "SEC07-BP04: Define scalable data lifecycle management"
+layout: default
+parent: "SEC07 - How do you classify your data?"
+grand_parent: Security
+nav_order: 4
 ---
 
 # SEC07-BP04: Define scalable data lifecycle management

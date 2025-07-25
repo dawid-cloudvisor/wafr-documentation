@@ -1,6 +1,9 @@
 ---
 title: "SEC07-BP03: Automate identification and classification"
-sidebar_label: "SEC07-BP03: Automate identification and classification"
+layout: default
+parent: "SEC07 - How do you classify your data?"
+grand_parent: Security
+nav_order: 3
 ---
 
 # SEC07-BP03: Automate identification and classification

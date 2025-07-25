@@ -1,7 +1,7 @@
 ---
-title: SEC07-BP01 - Understand your data classification scheme
+title: "SEC07-BP01: Understand your data classification scheme"
 layout: default
-parent: SEC07 - How do you classify your data?
+parent: "SEC07 - How do you classify your data?"
 grand_parent: Security
 nav_order: 1
 ---

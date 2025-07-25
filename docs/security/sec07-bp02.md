@@ -1,6 +1,9 @@
 ---
 title: "SEC07-BP02: Apply data protection controls based on data sensitivity"
-sidebar_label: "SEC07-BP02: Apply data protection controls"
+layout: default
+parent: "SEC07 - How do you classify your data?"
+grand_parent: Security
+nav_order: 2
 ---
 
 # SEC07-BP02: Apply data protection controls based on data sensitivity
