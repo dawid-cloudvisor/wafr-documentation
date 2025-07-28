@@ -19,8 +19,7 @@ This question includes the following best practices:
   <ul>
     <li><a href="./SEC09-BP01.html">SEC09-BP01: Implement secure key and certificate management</a></li>
     <li><a href="./SEC09-BP02.html">SEC09-BP02: Enforce encryption in transit</a></li>
-    <li><a href="./SEC09-BP03.html">SEC09-BP03: Automate detection of unintended data access</a></li>
-    <li><a href="./SEC09-BP04.html">SEC09-BP04: Authenticate network communications</a></li>
+    <li><a href="./SEC09-BP03.html">SEC09-BP03: Authenticate network communications</a></li>
   </ul>
 </div>
 
@@ -51,113 +50,149 @@ This question includes the following best practices:
 <div class="aws-service">
   <div class="aws-service-content">
     <h4>AWS Certificate Manager (ACM)</h4>
-    <p>Provisions, manages, and deploys public and private SSL/TLS certificates for use with AWS services and your internal connected resources. Provides automatic certificate renewal and integration with AWS services.</p>
+    <p>Provisions, manages, and deploys public and private SSL/TLS certificates for use with AWS services and your internal connected resources. Provides automatic certificate renewal and integration with AWS services like Application Load Balancer, CloudFront, and API Gateway.</p>
   </div>
 </div>
 
 <div class="aws-service">
   <div class="aws-service-content">
-    <h4>AWS Private Certificate Authority</h4>
-    <p>Managed private certificate authority service that helps you easily and securely manage the lifecycle of your private certificates. Ideal for internal applications and services.</p>
+    <h4>AWS Private Certificate Authority (AWS Private CA)</h4>
+    <p>Managed private certificate authority service that helps you easily and securely manage the lifecycle of your private certificates. Essential for implementing mutual TLS (mTLS) authentication between services and issuing certificates for internal applications.</p>
   </div>
 </div>
 
 <div class="aws-service">
   <div class="aws-service-content">
-    <h4>Amazon CloudFront</h4>
-    <p>Content delivery network (CDN) that provides HTTPS encryption for content delivery and supports custom SSL certificates. Helps improve performance while maintaining security.</p>
+    <h4>Amazon VPC Lattice</h4>
+    <p>Application networking service that provides service-to-service connectivity, security, and monitoring for service-oriented architectures. Supports AWS IAM authentication and authorization policies for secure service communication.</p>
+  </div>
+</div>
+
+<div class="aws-service">
+  <div class="aws-service-content">
+    <h4>Amazon API Gateway</h4>
+    <p>Fully managed service for creating, publishing, maintaining, monitoring, and securing APIs. Supports multiple authentication methods including mutual TLS, JWT authorizers, and AWS IAM authentication for secure API access.</p>
   </div>
 </div>
 
 <div class="aws-service">
   <div class="aws-service-content">
     <h4>Application Load Balancer (ALB)</h4>
-    <p>Provides SSL/TLS termination and end-to-end encryption capabilities. Supports SNI (Server Name Indication) for multiple certificates and advanced routing based on content.</p>
+    <p>Provides SSL/TLS termination and end-to-end encryption capabilities. Supports mutual TLS authentication, SNI (Server Name Indication) for multiple certificates, and advanced routing based on content.</p>
   </div>
 </div>
 
 <div class="aws-service">
   <div class="aws-service-content">
-    <h4>AWS VPN</h4>
-    <p>Provides secure connections between your on-premises networks and AWS VPCs using IPSec VPN tunnels. Includes Site-to-Site VPN and Client VPN options.</p>
+    <h4>AWS PrivateLink</h4>
+    <p>Provides private connectivity between VPCs, AWS services, and on-premises applications, securely on the Amazon network. Eliminates exposure of traffic to the public internet and supports authenticated connections.</p>
   </div>
 </div>
 
 <div class="aws-service">
   <div class="aws-service-content">
-    <h4>AWS Direct Connect</h4>
-    <p>Provides dedicated network connections from your premises to AWS. Can be combined with encryption to provide secure, high-bandwidth connections to AWS services.</p>
+    <h4>AWS IoT Core</h4>
+    <p>Managed cloud service that lets connected devices easily and securely interact with cloud applications and other devices. Provides multiple authentication methods including X.509 certificates and AWS IAM credentials.</p>
+  </div>
+</div>
+
+<div class="aws-service">
+  <div class="aws-service-content">
+    <h4>AWS IAM Roles Anywhere</h4>
+    <p>Allows workloads outside of AWS to access AWS resources using IAM roles and temporary credentials. Enables secure authentication for external systems that need to communicate with AWS services.</p>
   </div>
 </div>
 
 ## Implementation Approach
 
-### 1. Certificate and Key Management Strategy
+### 1. Secure Key and Certificate Management (SEC09-BP01)
 - Implement centralized certificate management using AWS Certificate Manager
-- Establish certificate lifecycle management procedures
-- Configure automatic certificate renewal and deployment
-- Implement certificate monitoring and alerting
-- Plan for certificate revocation and emergency procedures
+- Establish certificate lifecycle management procedures including automated renewal
+- Configure certificate monitoring and alerting for expiration and validation issues
+- Use AWS Private CA for internal certificates and mutual TLS authentication
+- Implement proper certificate validation and chain verification
+- Plan for certificate revocation and emergency replacement procedures
 
-### 2. Encryption in Transit Implementation
-- Enable HTTPS/TLS for all web applications and APIs
+### 2. Enforce Encryption in Transit (SEC09-BP02)
+- Enable HTTPS/TLS for all web applications and APIs with strong cipher suites
 - Configure end-to-end encryption for service-to-service communication
-- Implement secure protocols for database connections
-- Enable encryption for messaging and queuing systems
-- Configure secure file transfer protocols
+- Implement TLS 1.2 or higher as the minimum protocol version
+- Use AWS services that enforce encryption by default (ALB, API Gateway, CloudFront)
+- Enable encryption for database connections, messaging systems, and file transfers
+- Implement automated detection and remediation of unencrypted communications
 
-### 3. Network Security and Authentication
-- Implement mutual TLS (mTLS) for service authentication
-- Configure VPN connections for hybrid connectivity
-- Set up network access controls and segmentation
-- Implement certificate-based authentication
-- Configure secure DNS resolution
-
-### 4. Monitoring and Detection
-- Implement monitoring for unencrypted communications
-- Set up alerts for certificate expiration and issues
-- Monitor for protocol downgrade attacks
-- Implement network traffic analysis and anomaly detection
-- Configure compliance monitoring and reporting
+### 3. Authenticate Network Communications (SEC09-BP03)
+- Implement mutual TLS (mTLS) for service-to-service authentication
+- Use AWS Signature Version 4 (SigV4) for API authentication and authorization
+- Deploy Amazon VPC Lattice for secure service-to-service communication with built-in authentication
+- Configure OAuth 2.0 and OpenID Connect (OIDC) for user and service authentication
+- Use AWS IAM Roles Anywhere for external systems requiring AWS service access
+- Implement comprehensive monitoring for authentication events and failures
 
 ## Data in Transit Protection Architecture
 
-### Layered Encryption in Transit
+### Comprehensive Data in Transit Protection
 ```
-User/Client
-    ↓ (HTTPS/TLS)
-Load Balancer/CDN
-    ↓ (TLS Termination/Re-encryption)
-Application Services
-    ↓ (Service-to-Service TLS)
-Database/Storage
+External Users/Systems
+    ↓ (HTTPS/TLS with Client Certificates)
+AWS Certificate Manager (ACM)
+    ↓ (Certificate Management & Renewal)
+Application Load Balancer
+    ↓ (TLS Termination & mTLS Authentication)
+Amazon VPC Lattice / API Gateway
+    ↓ (Service Authentication & Authorization)
+Microservices
+    ↓ (Service-to-Service mTLS)
+AWS Private CA
+    ↓ (Internal Certificate Issuance)
+Backend Services & Databases
     ↓ (Encrypted Connections)
 ```
 
-### Certificate Management Lifecycle
+### Certificate Management Lifecycle (SEC09-BP01)
 ```
 Certificate Request
-    ↓ (CSR Generation)
-Certificate Authority (ACM/Private CA)
-    ↓ (Certificate Issuance)
-Certificate Deployment
-    ↓ (Automated Distribution)
-Certificate Monitoring
-    ↓ (Expiration Tracking)
-Certificate Renewal/Revocation
+    ↓ (Automated CSR Generation)
+AWS Certificate Manager / AWS Private CA
+    ↓ (Certificate Issuance & Validation)
+Automated Certificate Deployment
+    ↓ (Integration with AWS Services)
+Certificate Monitoring & Alerting
+    ↓ (Expiration & Health Tracking)
+Automated Certificate Renewal
+    ↓ (Zero-Downtime Updates)
+Certificate Revocation (if needed)
 ```
 
-### End-to-End Encryption Flow
+### Encryption Enforcement Flow (SEC09-BP02)
 ```
-Client Application
-    ↓ (Client Certificate)
-Authentication & Authorization
-    ↓ (TLS Handshake)
+Client Request
+    ↓ (TLS 1.2+ Required)
+Protocol Validation
+    ↓ (Strong Cipher Suite Enforcement)
+Certificate Verification
+    ↓ (Chain Validation & Revocation Check)
 Encrypted Channel Establishment
-    ↓ (Secure Communication)
-Service Processing
-    ↓ (Encrypted Response)
-Client Verification & Processing
+    ↓ (Perfect Forward Secrecy)
+Secure Data Transmission
+    ↓ (End-to-End Encryption)
+Service Processing & Response
+```
+
+### Network Authentication Flow (SEC09-BP03)
+```
+Service/Client Identity
+    ↓ (Certificate or AWS IAM Credentials)
+Authentication Method Selection
+    ├── mTLS (X.509 Certificates)
+    ├── AWS SigV4 (IAM-based)
+    └── JWT/OAuth 2.0 (Token-based)
+Identity Verification
+    ↓ (Certificate/Token Validation)
+Authorization Policy Check
+    ↓ (VPC Lattice Auth Policies / IAM Policies)
+Secure Communication Established
+    ↓ (Authenticated & Encrypted Channel)
 ```
 
 ## Data in Transit Security Controls Framework
@@ -225,46 +260,52 @@ Client Verification & Processing
 
 ## Data in Transit Protection Best Practices
 
-### Encryption Implementation:
-1. **Encrypt All Communications**: Apply encryption to all data in transit, internal and external
-2. **Use Strong Protocols**: Implement TLS 1.2 or higher with strong cipher suites
-3. **Enable Perfect Forward Secrecy**: Use ephemeral key exchange mechanisms
-4. **Implement End-to-End Encryption**: Protect data from source to destination
-5. **Regular Protocol Updates**: Stay current with latest security protocols and standards
+### SEC09-BP01: Secure Key and Certificate Management
+1. **Centralized Certificate Management**: Use AWS Certificate Manager for consistent certificate handling across all services
+2. **Automated Certificate Lifecycle**: Implement automatic certificate provisioning, renewal, and deployment
+3. **Certificate Monitoring**: Continuously monitor certificate health, expiration dates, and validation status
+4. **Private Certificate Authority**: Use AWS Private CA for internal certificates and mutual TLS authentication
+5. **Certificate Validation**: Implement proper certificate chain validation and revocation checking
+6. **Emergency Procedures**: Establish rapid certificate revocation and replacement processes for security incidents
 
-### Certificate Management:
-1. **Centralized Management**: Use AWS Certificate Manager for consistent certificate handling
-2. **Automated Renewal**: Implement automatic certificate renewal and deployment
-3. **Certificate Monitoring**: Monitor certificate health, expiration, and compliance
-4. **Proper Validation**: Implement certificate chain validation and revocation checking
-5. **Emergency Procedures**: Establish rapid certificate revocation and replacement processes
+### SEC09-BP02: Enforce Encryption in Transit
+1. **Universal Encryption**: Apply encryption to all data in transit, both external and internal communications
+2. **Strong Protocol Standards**: Use TLS 1.2 or higher with strong cipher suites and perfect forward secrecy
+3. **Service Integration**: Leverage AWS services that enforce encryption by default (ALB, API Gateway, CloudFront)
+4. **End-to-End Encryption**: Protect data from source to destination without intermediate plaintext exposure
+5. **Automated Enforcement**: Implement policies and controls that prevent unencrypted communications
+6. **Performance Optimization**: Balance security with performance using efficient encryption implementations
 
-### Network Security:
-1. **Mutual Authentication**: Implement mTLS for service-to-service communication
-2. **Network Segmentation**: Use VPCs and security groups to control traffic flow
-3. **VPN Connectivity**: Secure hybrid connections with IPSec VPN or Direct Connect
-4. **DNS Security**: Implement secure DNS resolution and DNS over HTTPS
-5. **Traffic Analysis**: Monitor network traffic for encryption compliance and anomalies
+### SEC09-BP03: Authenticate Network Communications
+1. **Mutual Authentication**: Implement mTLS for service-to-service communication to verify both parties
+2. **AWS IAM Integration**: Use AWS Signature Version 4 (SigV4) for API authentication and authorization
+3. **Service Mesh Security**: Deploy Amazon VPC Lattice for secure, authenticated service-to-service communication
+4. **Standard Protocols**: Implement OAuth 2.0 and OpenID Connect (OIDC) for user and service authentication
+5. **External System Integration**: Use AWS IAM Roles Anywhere for secure authentication of external systems
+6. **Comprehensive Monitoring**: Monitor all authentication events, failures, and anomalous access patterns
 
 ## Key Performance Indicators (KPIs)
 
-### Encryption Coverage Metrics:
-- Percentage of communications encrypted in transit
-- TLS/SSL adoption rate across services
-- Certificate deployment success rate
-- Encryption protocol compliance rate
+### Certificate Management Metrics (SEC09-BP01):
+- Certificate renewal success rate and automation coverage
+- Certificate expiration incidents and near-miss events
+- Mean time to certificate deployment and propagation
+- Certificate validation failure rate and resolution time
+- Private CA certificate issuance and revocation metrics
 
-### Certificate Management Metrics:
-- Certificate renewal success rate
-- Certificate expiration incidents
-- Mean time to certificate deployment
-- Certificate validation failure rate
+### Encryption Enforcement Metrics (SEC09-BP02):
+- Percentage of communications encrypted in transit (target: 100%)
+- TLS/SSL protocol version compliance rate (TLS 1.2+ adoption)
+- Strong cipher suite usage percentage
+- Unencrypted communication detection and remediation time
+- Encryption performance impact and optimization metrics
 
-### Security and Performance Metrics:
-- Encryption-related security incidents
-- TLS handshake performance metrics
-- Protocol downgrade detection rate
-- Compliance assessment scores
+### Authentication Metrics (SEC09-BP03):
+- Mutual TLS authentication success rate for service-to-service communication
+- AWS SigV4 authentication adoption rate across APIs
+- Authentication failure rate and incident response time
+- OAuth/OIDC token validation success rate
+- Network authentication coverage across all communication paths
 
 ## Protocol and Cipher Suite Recommendations
 
@@ -326,14 +367,41 @@ Client Verification & Processing
 
 <div class="related-resources">
   <h2>Related Resources</h2>
+  
+  <h3>AWS Well-Architected Framework</h3>
   <ul>
     <li><a href="https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html">AWS Well-Architected Framework - Security Pillar</a></li>
     <li><a href="https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-09.html">SEC09: How do you protect your data in transit?</a></li>
+  </ul>
+
+  <h3>Certificate Management (SEC09-BP01)</h3>
+  <ul>
     <li><a href="https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html">AWS Certificate Manager User Guide</a></li>
     <li><a href="https://docs.aws.amazon.com/acm-pca/latest/userguide/PcaWelcome.html">AWS Private Certificate Authority User Guide</a></li>
-    <li><a href="https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html">Create an HTTPS listener for your Application Load Balancer</a></li>
     <li><a href="https://aws.amazon.com/blogs/security/how-to-prepare-for-aws-move-to-its-own-certificate-authority/">How to prepare for AWS move to its own certificate authority</a></li>
+  </ul>
+
+  <h3>Encryption in Transit (SEC09-BP02)</h3>
+  <ul>
+    <li><a href="https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html">Create an HTTPS listener for your Application Load Balancer</a></li>
     <li><a href="https://aws.amazon.com/blogs/security/tls-1-2-required-for-aws-fips-endpoints/">TLS 1.2 required for AWS FIPS endpoints</a></li>
+    <li><a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-lambda.html">Working with AWS Lambda proxy integrations for HTTP APIs</a></li>
+  </ul>
+
+  <h3>Network Authentication (SEC09-BP03)</h3>
+  <ul>
+    <li><a href="https://docs.aws.amazon.com/vpc-lattice/latest/ug/what-is-vpc-lattice.html">What is Amazon VPC Lattice?</a></li>
+    <li><a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/rest-api-mutual-tls.html">Configuring mutual TLS authentication for a REST API</a></li>
+    <li><a href="https://docs.aws.amazon.com/elasticloadbalancing/latest/application/mutual-authentication.html">Mutual TLS authentication for Application Load Balancer</a></li>
+    <li><a href="https://docs.aws.amazon.com/rolesanywhere/latest/userguide/introduction.html">AWS IAM Roles Anywhere User Guide</a></li>
+    <li><a href="https://aws.amazon.com/blogs/security/how-to-secure-api-gateway-http-endpoints-with-jwt-authorizer/">How to secure API Gateway HTTP endpoints with JWT authorizer</a></li>
+  </ul>
+
+  <h3>Implementation Examples and Workshops</h3>
+  <ul>
+    <li><a href="https://catalog.us-east-1.prod.workshops.aws/workshops/9e543f60-e409-43d4-b37f-78ff3e1a07f5/en-US">Amazon VPC Lattice Workshop</a></li>
+    <li><a href="https://catalog.us-east-1.prod.workshops.aws/workshops/dc413216-deab-4371-9e4a-879a4f14233d/en-US">Zero-Trust Episode 1 – The Phantom Service Perimeter workshop</a></li>
+    <li><a href="https://aws.amazon.com/blogs/compute/evaluating-access-control-methods-to-secure-amazon-api-gateway-apis/">Evaluating access control methods to secure Amazon API Gateway APIs</a></li>
   </ul>
 </div>
 
