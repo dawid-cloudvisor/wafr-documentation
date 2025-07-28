@@ -74,21 +74,21 @@ Hardened images serve as the foundation for secure compute resources by providin
   "builders": [
     {
       "type": "amazon-ebs",
-      "region": "{{% raw %}}{{user `aws_region`}}{{% endraw %}}",
-      "instance_type": "{{% raw %}}{{user `instance_type`}}{{% endraw %}}",
-      "source_ami": "{{% raw %}}{{user `source_ami`}}{{% endraw %}}",
+      "region": "&#123;&#123;user `aws_region`&#125;&#125;",
+      "instance_type": "&#123;&#123;user `instance_type`&#125;&#125;",
+      "source_ami": "&#123;&#123;user `source_ami`&#125;&#125;",
       "ssh_username": "ec2-user",
-      "ami_name": "{{% raw %}}{{user `ami_name`}}{{% endraw %}}",
+      "ami_name": "&#123;&#123;user `ami_name`&#125;&#125;",
       "ami_description": "Hardened Amazon Linux 2 AMI with security configurations",
       "tags": {
-        "Name": "{{% raw %}}{{user `ami_name`}}{{% endraw %}}",
+        "Name": "&#123;&#123;user `ami_name`&#125;&#125;",
         "Environment": "Production",
         "Hardened": "true",
-        "BuildDate": "{{% raw %}}{{timestamp}}{{% endraw %}}",
-        "BaseAMI": "{{% raw %}}{{user `source_ami`}}{{% endraw %}}"
+        "BuildDate": "&#123;&#123;timestamp&#125;&#125;",
+        "BaseAMI": "&#123;&#123;user `source_ami`&#125;&#125;"
       },
       "run_tags": {
-        "Name": "Packer Builder - {{% raw %}}{{user `ami_name`}}{{% endraw %}}"
+        "Name": "Packer Builder - &#123;&#123;user `ami_name`&#125;&#125;"
       }
     }
   ],

@@ -334,7 +334,7 @@ create_image_attestation() {
     echo "Creating image attestation..."
     
     # Get image digest
-    IMAGE_DIGEST=$(docker inspect --format='{{% raw %}}{{index .RepoDigests 0}}{{% endraw %}}' "$REGISTRY/$REPOSITORY:$tag")
+    IMAGE_DIGEST=$(docker inspect --format='&#123;&#123;index .RepoDigests 0&#125;&#125;' "$REGISTRY/$REPOSITORY:$tag")
     
     # Create attestation document
     cat > image-attestation.json << EOF
@@ -387,7 +387,7 @@ verify_image_attestation() {
         
         # Validate attestation content
         ATTESTED_DIGEST=$(jq -r '.digest' image-attestation.json)
-        CURRENT_DIGEST=$(docker inspect --format='{{% raw %}}{{index .RepoDigests 0}}{{% endraw %}}' "$REGISTRY/$REPOSITORY:$tag")
+        CURRENT_DIGEST=$(docker inspect --format='&#123;&#123;index .RepoDigests 0&#125;&#125;' "$REGISTRY/$REPOSITORY:$tag")
         
         if [ "$ATTESTED_DIGEST" = "$CURRENT_DIGEST" ]; then
             echo "Attestation content verification successful"
