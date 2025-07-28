@@ -1147,16 +1147,16 @@ import json
 
 def lambda_handler(event, context):
     """Generic automation function for {function_name}"""
-    print(f"Processing event for {function_name}: {{event}}")
+    print(f"Processing event for {function_name}: {{% raw %}}{{event}}{{% endraw %}}")
     
-    return {{
+    return {{% raw %}}{{
         'statusCode': 200,
         'body': {{
             'function': '{function_name}',
             'automation_type': '{automation_type}',
             'processed': True
         }}
-    }}
+    }}{{% endraw %}}
                 '''
             
             # Create Lambda function

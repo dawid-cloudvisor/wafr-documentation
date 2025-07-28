@@ -74,21 +74,21 @@ Hardened images serve as the foundation for secure compute resources by providin
   "builders": [
     {
       "type": "amazon-ebs",
-      "region": "{{user `aws_region`}}",
-      "instance_type": "{{user `instance_type`}}",
-      "source_ami": "{{user `source_ami`}}",
+      "region": "{{% raw %}}{{user `aws_region`}}{{% endraw %}}",
+      "instance_type": "{{% raw %}}{{user `instance_type`}}{{% endraw %}}",
+      "source_ami": "{{% raw %}}{{user `source_ami`}}{{% endraw %}}",
       "ssh_username": "ec2-user",
-      "ami_name": "{{user `ami_name`}}",
+      "ami_name": "{{% raw %}}{{user `ami_name`}}{{% endraw %}}",
       "ami_description": "Hardened Amazon Linux 2 AMI with security configurations",
       "tags": {
-        "Name": "{{user `ami_name`}}",
+        "Name": "{{% raw %}}{{user `ami_name`}}{{% endraw %}}",
         "Environment": "Production",
         "Hardened": "true",
-        "BuildDate": "{{timestamp}}",
-        "BaseAMI": "{{user `source_ami`}}"
+        "BuildDate": "{{% raw %}}{{timestamp}}{{% endraw %}}",
+        "BaseAMI": "{{% raw %}}{{user `source_ami`}}{{% endraw %}}"
       },
       "run_tags": {
-        "Name": "Packer Builder - {{user `ami_name`}}"
+        "Name": "Packer Builder - {{% raw %}}{{user `ami_name`}}{{% endraw %}}"
       }
     }
   ],
