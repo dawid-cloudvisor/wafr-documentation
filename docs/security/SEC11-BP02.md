@@ -12,8 +12,6 @@ nav_order: 2
 
 Implement automated security testing throughout the software development lifecycle (SDLC) to identify and remediate security vulnerabilities early and continuously. This includes static application security testing (SAST), dynamic application security testing (DAST), interactive application security testing (IAST), dependency scanning, and infrastructure as code (IaC) security testing.
 
-**Level of risk exposed if this best practice is not established:** High
-
 ## Implementation Guidance
 
 Automated security testing is essential for maintaining security at the speed of modern software development. Manual security testing alone cannot keep pace with continuous integration and deployment practices. By integrating automated security testing throughout the development lifecycle, organizations can identify vulnerabilities early when they are less expensive to fix, ensure consistent security validation, and maintain security standards across all releases.

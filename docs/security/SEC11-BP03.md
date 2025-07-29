@@ -12,8 +12,6 @@ nav_order: 3
 
 Conduct regular penetration testing to validate the effectiveness of security controls and identify vulnerabilities that automated tools might miss. Penetration testing should be performed by qualified security professionals using a combination of automated tools and manual techniques to simulate real-world attack scenarios.
 
-**Level of risk exposed if this best practice is not established:** Medium
-
 ## Implementation Guidance
 
 Penetration testing is a critical component of a comprehensive security testing strategy that goes beyond automated vulnerability scanning. While automated tools can identify known vulnerabilities and misconfigurations, penetration testing provides a human element that can discover complex attack chains, business logic flaws, and novel attack vectors that automated tools might miss.

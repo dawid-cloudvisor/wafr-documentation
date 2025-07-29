@@ -12,8 +12,6 @@ nav_order: 3
 
 Ahead of a security incident, consider developing forensics capabilities to support security event investigations.
 
-**Level of risk exposed if this best practice is not established:** Medium
-
 Concepts from traditional on-premises forensics apply to AWS. For key information to start building forensics capabilities in the AWS Cloud, see [Forensic investigation environment strategies in the AWS Cloud](https://docs.aws.amazon.com/whitepapers/latest/forensic-investigation-environment-strategies-in-the-aws-cloud/forensic-investigation-environment-strategies-in-the-aws-cloud.html).
 
 Once you have your environment and AWS account structure set up for forensics, define the technologies required to effectively perform forensically sound methodologies across the four phases:

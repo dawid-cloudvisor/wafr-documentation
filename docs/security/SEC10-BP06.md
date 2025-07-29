@@ -12,8 +12,6 @@ nav_order: 6
 
 Verify that security personnel have the right tools pre-deployed to reduce the time for investigation through to recovery.
 
-**Level of risk exposed if this best practice is not established:** Medium
-
 ## Implementation Guidance
 
 To automate security response and operations functions, you can use a comprehensive set of APIs and tools from AWS. You can fully automate identity management, network security, data protection, and monitoring capabilities and deliver them using popular software development methods that you already have in place.

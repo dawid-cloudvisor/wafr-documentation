@@ -12,8 +12,6 @@ nav_order: 1
 
 Provide security training to all personnel involved in application development, deployment, and operations. Training should cover secure coding practices, common vulnerabilities, security testing methodologies, and the organization's security policies and procedures.
 
-**Level of risk exposed if this best practice is not established:** High
-
 ## Implementation Guidance
 
 Application security training is fundamental to building secure applications. Without proper training, developers, architects, and operations teams may inadvertently introduce vulnerabilities or fail to implement security controls effectively. A comprehensive training program ensures that all team members understand their security responsibilities and have the knowledge and skills needed to build and maintain secure applications.

@@ -17,8 +17,6 @@ Verify that incident responders have the correct access pre-provisioned in AWS t
 - Altering existing accounts
 - Manipulating IAM permissions directly when providing just-in-time privilege elevation
 
-**Level of risk exposed if this best practice is not established:** Medium
-
 ## Implementation Guidance
 
 AWS recommends reducing or eliminating reliance on long-lived credentials wherever possible, in favor of temporary credentials and just-in-time privilege escalation mechanisms. Long-lived credentials are prone to security risk and increase operational overhead.

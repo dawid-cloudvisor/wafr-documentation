@@ -20,8 +20,6 @@ Simulations have a variety of benefits:
 - Refining communication and escalation methods aligned with your incident response plan
 - Providing an opportunity to respond to less common vectors
 
-**Level of risk exposed if this best practice is not established:** Medium
-
 ## Implementation Guidance
 
 There are three main types of simulations:

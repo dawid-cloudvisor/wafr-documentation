@@ -12,8 +12,6 @@ nav_order: 4
 
 Implement systematic code review processes to identify security vulnerabilities, ensure adherence to secure coding practices, and maintain code quality. Code reviews should combine automated tools with manual inspection by security-aware developers to catch issues that automated tools might miss.
 
-**Level of risk exposed if this best practice is not established:** High
-
 ## Implementation Guidance
 
 Code reviews are a critical security control that provides human oversight of code changes before they reach production. While automated security testing tools can identify many common vulnerabilities, manual code reviews can catch complex logic flaws, business logic vulnerabilities, and subtle security issues that require human understanding and context.

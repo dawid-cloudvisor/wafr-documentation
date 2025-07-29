@@ -12,8 +12,6 @@ nav_order: 8
 
 Establish a framework for learning from incidents to improve your incident response capabilities and prevent similar incidents from occurring in the future. This includes conducting post-incident reviews, documenting lessons learned, and implementing improvements to your security posture.
 
-**Level of risk exposed if this best practice is not established:** Medium
-
 ## Implementation Guidance
 
 Learning from incidents is a critical component of a mature incident response program. Without a systematic approach to capturing and applying lessons learned, organizations risk repeating the same mistakes and missing opportunities to strengthen their security posture.

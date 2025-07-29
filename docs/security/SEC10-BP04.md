@@ -12,8 +12,6 @@ nav_order: 4
 
 A key part of preparing your incident response processes is developing playbooks. Incident response playbooks provide prescriptive guidance and steps to follow when a security event occurs. Having clear structure and steps simplifies the response and reduces the likelihood for human error.
 
-**Level of risk exposed if this best practice is not established:** Medium
-
 ## Implementation Guidance
 
 Playbooks should be created for incident scenarios such as:
