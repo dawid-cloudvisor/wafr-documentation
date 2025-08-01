@@ -2,6 +2,7 @@
 title: REL05 - How do you design interactions in a distributed system to mitigate or withstand failures?
 layout: default
 parent: Reliability
+has_children: true
 nav_order: 5
 ---
 <div class="pillar-header">

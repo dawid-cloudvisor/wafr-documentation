@@ -75,6 +75,13 @@ The Reliability pillar includes the ability to support development and run workl
     <div class="question-content">
       <ul>
         <li><a href="./REL05.html">View all REL05 best practices</a></li>
+        <li><a href="./REL05-BP01.html">REL05-BP01: Implement graceful degradation to transform applicable hard dependencies into soft dependencies</a></li>
+        <li><a href="./REL05-BP02.html">REL05-BP02: Throttle requests</a></li>
+        <li><a href="./REL05-BP03.html">REL05-BP03: Control and limit retry calls</a></li>
+        <li><a href="./REL05-BP04.html">REL05-BP04: Fail fast and limit queues</a></li>
+        <li><a href="./REL05-BP05.html">REL05-BP05: Set client timeouts</a></li>
+        <li><a href="./REL05-BP06.html">REL05-BP06: Make systems stateless where possible</a></li>
+        <li><a href="./REL05-BP07.html">REL05-BP07: Implement emergency levers</a></li>
       </ul>
     </div>
   </div>
