@@ -39,6 +39,7 @@ The Reliability pillar includes the ability to support development and run workl
         <li><a href="./REL02-BP01.html">REL02-BP01: Use highly available network connectivity for your workload public endpoints</a></li>
         <li><a href="./REL02-BP02.html">REL02-BP02: Provision redundant connectivity between private networks in the cloud and on-premises environments</a></li>
         <li><a href="./REL02-BP03.html">REL02-BP03: Ensure IP subnet allocation accounts for expansion and availability</a></li>
+        <li><a href="./REL02-BP04.html">REL02-BP04: Prefer hub-and-spoke topologies over many-to-many mesh</a></li>
       </ul>
     </div>
   </div>
