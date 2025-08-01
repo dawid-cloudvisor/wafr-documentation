@@ -1,3 +1,11 @@
+---
+title: REL01-BP06 - Ensure that a sufficient gap exists between the current quotas and the maximum usage to accommodate failover
+layout: default
+parent: REL01 - How do you manage service quotas and constraints?
+grand_parent: Reliability
+nav_order: 6
+---
+
 # REL01-BP06: Ensure that a sufficient gap exists between the current quotas and the maximum usage to accommodate failover
 
 ## Overview

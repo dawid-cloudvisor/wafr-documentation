@@ -1,3 +1,11 @@
+---
+title: REL02-BP01 - Use highly available network connectivity for your workload public endpoints
+layout: default
+parent: REL02 - How do you plan your network topology?
+grand_parent: Reliability
+nav_order: 1
+---
+
 # REL02-BP01: Use highly available network connectivity for your workload public endpoints
 
 ## Overview

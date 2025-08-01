@@ -1,3 +1,11 @@
+---
+title: REL02-BP02 - Provision redundant connectivity between private networks in the cloud and on-premises environments
+layout: default
+parent: REL02 - How do you plan your network topology?
+grand_parent: Reliability
+nav_order: 2
+---
+
 # REL02-BP02: Provision redundant connectivity between private networks in the cloud and on-premises environments
 
 ## Overview

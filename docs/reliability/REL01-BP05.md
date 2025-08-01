@@ -1,3 +1,11 @@
+---
+title: REL01-BP05 - Automate quota management
+layout: default
+parent: REL01 - How do you manage service quotas and constraints?
+grand_parent: Reliability
+nav_order: 5
+---
+
 # REL01-BP05: Automate quota management
 
 ## Overview

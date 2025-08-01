@@ -2,6 +2,7 @@
 title: REL02 - How do you plan your network topology?
 layout: default
 parent: Reliability
+has_children: true
 nav_order: 2
 ---
 <div class="pillar-header">

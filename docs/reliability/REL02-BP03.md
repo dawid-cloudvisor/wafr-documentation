@@ -1,3 +1,11 @@
+---
+title: REL02-BP03 - Ensure IP subnet allocation accounts for expansion and availability
+layout: default
+parent: REL02 - How do you plan your network topology?
+grand_parent: Reliability
+nav_order: 3
+---
+
 # REL02-BP03: Ensure IP subnet allocation accounts for expansion and availability
 
 ## Overview
