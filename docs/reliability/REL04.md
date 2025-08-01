@@ -2,6 +2,7 @@
 title: REL04 - How do you design interactions in a distributed system to prevent failures?
 layout: default
 parent: Reliability
+has_children: true
 nav_order: 4
 ---
 <div class="pillar-header">

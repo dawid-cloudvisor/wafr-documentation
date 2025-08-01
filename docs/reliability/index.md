@@ -62,6 +62,10 @@ The Reliability pillar includes the ability to support development and run workl
     <div class="question-content">
       <ul>
         <li><a href="./REL04.html">View all REL04 best practices</a></li>
+        <li><a href="./REL04-BP01.html">REL04-BP01: Identify the kind of distributed systems you depend on</a></li>
+        <li><a href="./REL04-BP02.html">REL04-BP02: Implement loosely coupled dependencies</a></li>
+        <li><a href="./REL04-BP03.html">REL04-BP03: Do constant work</a></li>
+        <li><a href="./REL04-BP04.html">REL04-BP04: Make mutating operations idempotent</a></li>
       </ul>
     </div>
   </div>
