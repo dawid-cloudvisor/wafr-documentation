@@ -50,6 +50,7 @@ The Reliability pillar includes the ability to support development and run workl
     <div class="question-content">
       <ul>
         <li><a href="./REL03.html">View all REL03 best practices</a></li>
+        <li><a href="./REL03-BP01.html">REL03-BP01: Choose how to segment your workload</a></li>
       </ul>
     </div>
   </div>

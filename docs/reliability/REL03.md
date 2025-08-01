@@ -2,6 +2,7 @@
 title: REL03 - How do you design your workload service architecture?
 layout: default
 parent: Reliability
+has_children: true
 nav_order: 3
 ---
 <div class="pillar-header">
