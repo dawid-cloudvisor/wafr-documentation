@@ -51,6 +51,8 @@ The Reliability pillar includes the ability to support development and run workl
       <ul>
         <li><a href="./REL03.html">View all REL03 best practices</a></li>
         <li><a href="./REL03-BP01.html">REL03-BP01: Choose how to segment your workload</a></li>
+        <li><a href="./REL03-BP02.html">REL03-BP02: Build services focused on specific business domains and functionality</a></li>
+        <li><a href="./REL03-BP03.html">REL03-BP03: Provide service contracts per API</a></li>
       </ul>
     </div>
   </div>
