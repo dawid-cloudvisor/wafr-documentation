@@ -175,6 +175,11 @@ The Reliability pillar includes the ability to support development and run workl
     <div class="question-content">
       <ul>
         <li><a href="./REL12.html">View all REL12 best practices</a></li>
+        <li><a href="./REL12-BP01.html">REL12-BP01: Use playbooks to investigate failures</a></li>
+        <li><a href="./REL12-BP02.html">REL12-BP02: Perform post-incident analysis</a></li>
+        <li><a href="./REL12-BP03.html">REL12-BP03: Test functional requirements</a></li>
+        <li><a href="./REL12-BP04.html">REL12-BP04: Test scaling and performance requirements</a></li>
+        <li><a href="./REL12-BP05.html">REL12-BP05: Test resiliency using chaos engineering</a></li>
       </ul>
     </div>
   </div>
