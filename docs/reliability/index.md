@@ -159,6 +159,13 @@ The Reliability pillar includes the ability to support development and run workl
     <div class="question-content">
       <ul>
         <li><a href="./REL11.html">View all REL11 best practices</a></li>
+        <li><a href="./REL11-BP01.html">REL11-BP01: Monitor all components of the workload to detect failures</a></li>
+        <li><a href="./REL11-BP02.html">REL11-BP02: Fail over to healthy resources</a></li>
+        <li><a href="./REL11-BP03.html">REL11-BP03: Automate healing on all layers</a></li>
+        <li><a href="./REL11-BP04.html">REL11-BP04: Rely on the data plane and not the control plane during recovery</a></li>
+        <li><a href="./REL11-BP05.html">REL11-BP05: Use static stability to prevent bimodal behavior</a></li>
+        <li><a href="./REL11-BP06.html">REL11-BP06: Send notifications when events impact availability</a></li>
+        <li><a href="./REL11-BP07.html">REL11-BP07: Architect your product to meet availability targets and uptime service level agreements (SLAs)</a></li>
       </ul>
     </div>
   </div>
