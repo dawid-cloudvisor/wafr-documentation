@@ -120,6 +120,11 @@ The Reliability pillar includes the ability to support development and run workl
     <div class="question-content">
       <ul>
         <li><a href="./REL08.html">View all REL08 best practices</a></li>
+        <li><a href="./REL08-BP01.html">REL08-BP01: Use runbooks for standard activities such as deployment</a></li>
+        <li><a href="./REL08-BP02.html">REL08-BP02: Integrate functional testing as part of your deployment</a></li>
+        <li><a href="./REL08-BP03.html">REL08-BP03: Integrate resiliency testing as part of your deployment</a></li>
+        <li><a href="./REL08-BP04.html">REL08-BP04: Deploy using immutable infrastructure</a></li>
+        <li><a href="./REL08-BP05.html">REL08-BP05: Deploy changes with automation</a></li>
       </ul>
     </div>
   </div>
