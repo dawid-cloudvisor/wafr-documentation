@@ -189,6 +189,11 @@ The Reliability pillar includes the ability to support development and run workl
     <div class="question-content">
       <ul>
         <li><a href="./REL13.html">View all REL13 best practices</a></li>
+        <li><a href="./REL13-BP01.html">REL13-BP01: Define recovery objectives for downtime and data loss</a></li>
+        <li><a href="./REL13-BP02.html">REL13-BP02: Use defined recovery strategies to meet the recovery objectives</a></li>
+        <li><a href="./REL13-BP03.html">REL13-BP03: Test disaster recovery implementation to validate the implementation</a></li>
+        <li><a href="./REL13-BP04.html">REL13-BP04: Manage configuration drift at the DR site or region</a></li>
+        <li><a href="./REL13-BP05.html">REL13-BP05: Automate recovery</a></li>
       </ul>
     </div>
   </div>
