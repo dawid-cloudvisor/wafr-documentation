@@ -147,6 +147,9 @@ The Reliability pillar includes the ability to support development and run workl
     <div class="question-content">
       <ul>
         <li><a href="./REL10.html">View all REL10 best practices</a></li>
+        <li><a href="./REL10-BP01.html">REL10-BP01: Deploy the workload to multiple locations</a></li>
+        <li><a href="./REL10-BP02.html">REL10-BP02: Select the appropriate locations for your multi-location deployment</a></li>
+        <li><a href="./REL10-BP03.html">REL10-BP03: Automate recovery for components constrained to a single location</a></li>
       </ul>
     </div>
   </div>
