@@ -2,6 +2,7 @@
 title: REL06 - How do you monitor workload resources?
 layout: default
 parent: Reliability
+has_children: true
 nav_order: 6
 ---
 <div class="pillar-header">
