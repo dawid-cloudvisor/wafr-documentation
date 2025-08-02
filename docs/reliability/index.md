@@ -97,6 +97,7 @@ The Reliability pillar includes the ability to support development and run workl
         <li><a href="./REL06-BP04.html">REL06-BP04: Automate responses (Real-time processing and alarming)</a></li>
         <li><a href="./REL06-BP05.html">REL06-BP05: Create dashboards</a></li>
         <li><a href="./REL06-BP06.html">REL06-BP06: Review metrics at regular intervals</a></li>
+        <li><a href="./REL06-BP07.html">REL06-BP07: Monitor end-to-end tracing of requests through your system</a></li>
       </ul>
     </div>
   </div>
