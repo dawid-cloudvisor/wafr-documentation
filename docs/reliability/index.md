@@ -134,6 +134,10 @@ The Reliability pillar includes the ability to support development and run workl
     <div class="question-content">
       <ul>
         <li><a href="./REL09.html">View all REL09 best practices</a></li>
+        <li><a href="./REL09-BP01.html">REL09-BP01: Identify and back up all data that needs to be backed up, or reproduce the data from sources</a></li>
+        <li><a href="./REL09-BP02.html">REL09-BP02: Secure and encrypt backups</a></li>
+        <li><a href="./REL09-BP03.html">REL09-BP03: Perform data backup automatically</a></li>
+        <li><a href="./REL09-BP04.html">REL09-BP04: Perform periodic recovery of the data to verify backup integrity and processes</a></li>
       </ul>
     </div>
   </div>
