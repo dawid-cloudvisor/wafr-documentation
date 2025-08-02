@@ -106,6 +106,10 @@ The Reliability pillar includes the ability to support development and run workl
     <div class="question-content">
       <ul>
         <li><a href="./REL07.html">View all REL07 best practices</a></li>
+        <li><a href="./REL07-BP01.html">REL07-BP01: Use auto scaling or on-demand resources</a></li>
+        <li><a href="./REL07-BP02.html">REL07-BP02: Obtain resources upon detection of impairment to a workload</a></li>
+        <li><a href="./REL07-BP03.html">REL07-BP03: Obtain resources upon detection that more resources are needed for a workload</a></li>
+        <li><a href="./REL07-BP04.html">REL07-BP04: Load test your workload</a></li>
       </ul>
     </div>
   </div>
