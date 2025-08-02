@@ -53,6 +53,7 @@ Implement comprehensive deployment automation to eliminate manual processes, red
 ## Implementation Examples
 
 ### Example 1: Comprehensive Automated Deployment System
+{% raw %}
 ```python
 import boto3
 import json
@@ -723,6 +724,7 @@ if __name__ == "__main__":
     import asyncio
     asyncio.run(main())
 ```
+{% endraw %}
 
 ## AWS Services Used
 

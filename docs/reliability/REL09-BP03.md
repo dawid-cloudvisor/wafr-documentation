@@ -53,6 +53,7 @@ Implement comprehensive automated backup systems that eliminate manual processes
 ## Implementation Examples
 
 ### Example 1: Comprehensive Automated Backup System
+{% raw %}
 ```python
 import boto3
 import json
@@ -672,6 +673,7 @@ if __name__ == "__main__":
     import asyncio
     asyncio.run(main())
 ```
+{% endraw %}
 
 ## AWS Services Used
 

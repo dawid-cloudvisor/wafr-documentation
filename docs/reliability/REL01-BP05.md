@@ -1855,6 +1855,7 @@ output "dashboard_url" {
 ```
 ### Example 4: CI/CD Integration for Quota-Aware Deployments
 
+{% raw %}
 ```yaml
 # GitHub Actions workflow for quota-aware deployments
 name: Quota-Aware Deployment Pipeline
@@ -2020,6 +2021,7 @@ jobs:
             --environment ${{ env.ENVIRONMENT }} \
             --optimization-strategy cost-aware
 ```
+{% endraw %}
 
 ```python
 # .github/scripts/quota_validator.py

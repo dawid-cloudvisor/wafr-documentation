@@ -52,6 +52,7 @@ Design services around specific business domains and functionality using domain-
 ## Implementation Examples
 
 ### Example 1: Domain-Driven Service Design and Implementation Engine
+{% raw %}
 ```python
 import boto3
 import json
@@ -430,6 +431,7 @@ class DomainDrivenServiceDesigner:
             logging.error(f"API endpoint generation failed: {str(e)}")
             return endpoints
 ```
+{% endraw %}
 
 ### Example 2: Domain-Driven Service Implementation Script
 ```bash

@@ -52,6 +52,7 @@ Establish clear, well-defined service contracts for each API to ensure reliable 
 ## Implementation Examples
 
 ### Example 1: API Contract Management and Validation System
+{% raw %}
 ```python
 import boto3
 import json
@@ -537,6 +538,7 @@ class {contract.service_name.title()}{contract.api_name.title()}Client:
             logging.error(f"Failed to store contract specification: {str(e)}")
             raise
 ```
+{% endraw %}
 
 ### Example 2: API Contract Testing and Validation Script
 ```bash
