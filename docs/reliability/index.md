@@ -20,13 +20,13 @@ The Reliability pillar includes the ability to support development and run workl
     <a href="javascript:void(0);">REL01: How do you manage service quotas and constraints?</a>
     <div class="question-content">
       <ul>
-        <li><a href="./REL01.html">View all REL01 best practices</a></li>
-        <li><a href="./REL01-BP01.html">REL01-BP01: Aware of service quotas and constraints</a></li>
-        <li><a href="./REL01-BP02.html">REL01-BP02: Manage service quotas across accounts and regions</a></li>
-        <li><a href="./REL01-BP03.html">REL01-BP03: Accommodate fixed service quotas and constraints through architecture</a></li>
-        <li><a href="./REL01-BP04.html">REL01-BP04: Monitor and manage quotas</a></li>
-        <li><a href="./REL01-BP05.html">REL01-BP05: Automate quota management</a></li>
-        <li><a href="./REL01-BP06.html">REL01-BP06: Ensure that a sufficient gap exists between the current quotas and the maximum usage to accommodate failover</a></li>
+        <li><a href="./reliability/REL01.html">View all REL01 best practices</a></li>
+        <li><a href="./reliability/REL01-BP01.html">REL01-BP01: Aware of service quotas and constraints</a></li>
+        <li><a href="./reliability/REL01-BP02.html">REL01-BP02: Manage service quotas across accounts and regions</a></li>
+        <li><a href="./reliability/REL01-BP03.html">REL01-BP03: Accommodate fixed service quotas and constraints through architecture</a></li>
+        <li><a href="./reliability/REL01-BP04.html">REL01-BP04: Monitor and manage quotas</a></li>
+        <li><a href="./reliability/REL01-BP05.html">REL01-BP05: Automate quota management</a></li>
+        <li><a href="./reliability/REL01-BP06.html">REL01-BP06: Ensure that a sufficient gap exists between the current quotas and the maximum usage to accommodate failover</a></li>
       </ul>
     </div>
   </div>
@@ -35,12 +35,12 @@ The Reliability pillar includes the ability to support development and run workl
     <a href="javascript:void(0);">REL02: How do you plan your network topology?</a>
     <div class="question-content">
       <ul>
-        <li><a href="./REL02.html">View all REL02 best practices</a></li>
-        <li><a href="./REL02-BP01.html">REL02-BP01: Use highly available network connectivity for your workload public endpoints</a></li>
-        <li><a href="./REL02-BP02.html">REL02-BP02: Provision redundant connectivity between private networks in the cloud and on-premises environments</a></li>
-        <li><a href="./REL02-BP03.html">REL02-BP03: Ensure IP subnet allocation accounts for expansion and availability</a></li>
-        <li><a href="./REL02-BP04.html">REL02-BP04: Prefer hub-and-spoke topologies over many-to-many mesh</a></li>
-        <li><a href="./REL02-BP05.html">REL02-BP05: Enforce non-overlapping private IP address ranges in all private address spaces where they are connected</a></li>
+        <li><a href="./reliability/REL02.html">View all REL02 best practices</a></li>
+        <li><a href="./reliability/REL02-BP01.html">REL02-BP01: Use highly available network connectivity for your workload public endpoints</a></li>
+        <li><a href="./reliability/REL02-BP02.html">REL02-BP02: Provision redundant connectivity between private networks in the cloud and on-premises environments</a></li>
+        <li><a href="./reliability/REL02-BP03.html">REL02-BP03: Ensure IP subnet allocation accounts for expansion and availability</a></li>
+        <li><a href="./reliability/REL02-BP04.html">REL02-BP04: Prefer hub-and-spoke topologies over many-to-many mesh</a></li>
+        <li><a href="./reliability/REL02-BP05.html">REL02-BP05: Enforce non-overlapping private IP address ranges in all private address spaces where they are connected</a></li>
       </ul>
     </div>
   </div>
@@ -49,10 +49,10 @@ The Reliability pillar includes the ability to support development and run workl
     <a href="javascript:void(0);">REL03: How do you design your workload service architecture?</a>
     <div class="question-content">
       <ul>
-        <li><a href="./REL03.html">View all REL03 best practices</a></li>
-        <li><a href="./REL03-BP01.html">REL03-BP01: Choose how to segment your workload</a></li>
-        <li><a href="./REL03-BP02.html">REL03-BP02: Build services focused on specific business domains and functionality</a></li>
-        <li><a href="./REL03-BP03.html">REL03-BP03: Provide service contracts per API</a></li>
+        <li><a href="./reliability/REL03.html">View all REL03 best practices</a></li>
+        <li><a href="./reliability/REL03-BP01.html">REL03-BP01: Choose how to segment your workload</a></li>
+        <li><a href="./reliability/REL03-BP02.html">REL03-BP02: Build services focused on specific business domains and functionality</a></li>
+        <li><a href="./reliability/REL03-BP03.html">REL03-BP03: Provide service contracts per API</a></li>
       </ul>
     </div>
   </div>
@@ -61,11 +61,11 @@ The Reliability pillar includes the ability to support development and run workl
     <a href="javascript:void(0);">REL04: How do you design interactions in a distributed system to prevent failures?</a>
     <div class="question-content">
       <ul>
-        <li><a href="./REL04.html">View all REL04 best practices</a></li>
-        <li><a href="./REL04-BP01.html">REL04-BP01: Identify the kind of distributed systems you depend on</a></li>
-        <li><a href="./REL04-BP02.html">REL04-BP02: Implement loosely coupled dependencies</a></li>
-        <li><a href="./REL04-BP03.html">REL04-BP03: Do constant work</a></li>
-        <li><a href="./REL04-BP04.html">REL04-BP04: Make mutating operations idempotent</a></li>
+        <li><a href="./reliability/REL04.html">View all REL04 best practices</a></li>
+        <li><a href="./reliability/REL04-BP01.html">REL04-BP01: Identify the kind of distributed systems you depend on</a></li>
+        <li><a href="./reliability/REL04-BP02.html">REL04-BP02: Implement loosely coupled dependencies</a></li>
+        <li><a href="./reliability/REL04-BP03.html">REL04-BP03: Do constant work</a></li>
+        <li><a href="./reliability/REL04-BP04.html">REL04-BP04: Make mutating operations idempotent</a></li>
       </ul>
     </div>
   </div>
@@ -74,14 +74,14 @@ The Reliability pillar includes the ability to support development and run workl
     <a href="javascript:void(0);">REL05: How do you design interactions in a distributed system to mitigate or withstand failures?</a>
     <div class="question-content">
       <ul>
-        <li><a href="./REL05.html">View all REL05 best practices</a></li>
-        <li><a href="./REL05-BP01.html">REL05-BP01: Implement graceful degradation to transform applicable hard dependencies into soft dependencies</a></li>
-        <li><a href="./REL05-BP02.html">REL05-BP02: Throttle requests</a></li>
-        <li><a href="./REL05-BP03.html">REL05-BP03: Control and limit retry calls</a></li>
-        <li><a href="./REL05-BP04.html">REL05-BP04: Fail fast and limit queues</a></li>
-        <li><a href="./REL05-BP05.html">REL05-BP05: Set client timeouts</a></li>
-        <li><a href="./REL05-BP06.html">REL05-BP06: Make systems stateless where possible</a></li>
-        <li><a href="./REL05-BP07.html">REL05-BP07: Implement emergency levers</a></li>
+        <li><a href="./reliability/REL05.html">View all REL05 best practices</a></li>
+        <li><a href="./reliability/REL05-BP01.html">REL05-BP01: Implement graceful degradation to transform applicable hard dependencies into soft dependencies</a></li>
+        <li><a href="./reliability/REL05-BP02.html">REL05-BP02: Throttle requests</a></li>
+        <li><a href="./reliability/REL05-BP03.html">REL05-BP03: Control and limit retry calls</a></li>
+        <li><a href="./reliability/REL05-BP04.html">REL05-BP04: Fail fast and limit queues</a></li>
+        <li><a href="./reliability/REL05-BP05.html">REL05-BP05: Set client timeouts</a></li>
+        <li><a href="./reliability/REL05-BP06.html">REL05-BP06: Make systems stateless where possible</a></li>
+        <li><a href="./reliability/REL05-BP07.html">REL05-BP07: Implement emergency levers</a></li>
       </ul>
     </div>
   </div>
@@ -90,14 +90,14 @@ The Reliability pillar includes the ability to support development and run workl
     <a href="javascript:void(0);">REL06: How do you monitor workload resources?</a>
     <div class="question-content">
       <ul>
-        <li><a href="./REL06.html">View all REL06 best practices</a></li>
-        <li><a href="./REL06-BP01.html">REL06-BP01: Monitor all components for the workload (Generation)</a></li>
-        <li><a href="./REL06-BP02.html">REL06-BP02: Define and calculate metrics (Aggregation)</a></li>
-        <li><a href="./REL06-BP03.html">REL06-BP03: Send notifications (Real-time processing and alarming)</a></li>
-        <li><a href="./REL06-BP04.html">REL06-BP04: Automate responses (Real-time processing and alarming)</a></li>
-        <li><a href="./REL06-BP05.html">REL06-BP05: Create dashboards</a></li>
-        <li><a href="./REL06-BP06.html">REL06-BP06: Review metrics at regular intervals</a></li>
-        <li><a href="./REL06-BP07.html">REL06-BP07: Monitor end-to-end tracing of requests through your system</a></li>
+        <li><a href="./reliability/REL06.html">View all REL06 best practices</a></li>
+        <li><a href="./reliability/REL06-BP01.html">REL06-BP01: Monitor all components for the workload (Generation)</a></li>
+        <li><a href="./reliability/REL06-BP02.html">REL06-BP02: Define and calculate metrics (Aggregation)</a></li>
+        <li><a href="./reliability/REL06-BP03.html">REL06-BP03: Send notifications (Real-time processing and alarming)</a></li>
+        <li><a href="./reliability/REL06-BP04.html">REL06-BP04: Automate responses (Real-time processing and alarming)</a></li>
+        <li><a href="./reliability/REL06-BP05.html">REL06-BP05: Create dashboards</a></li>
+        <li><a href="./reliability/REL06-BP06.html">REL06-BP06: Review metrics at regular intervals</a></li>
+        <li><a href="./reliability/REL06-BP07.html">REL06-BP07: Monitor end-to-end tracing of requests through your system</a></li>
       </ul>
     </div>
   </div>
@@ -106,11 +106,11 @@ The Reliability pillar includes the ability to support development and run workl
     <a href="javascript:void(0);">REL07: How do you design your workload to adapt to changes in demand?</a>
     <div class="question-content">
       <ul>
-        <li><a href="./REL07.html">View all REL07 best practices</a></li>
-        <li><a href="./REL07-BP01.html">REL07-BP01: Use auto scaling or on-demand resources</a></li>
-        <li><a href="./REL07-BP02.html">REL07-BP02: Obtain resources upon detection of impairment to a workload</a></li>
-        <li><a href="./REL07-BP03.html">REL07-BP03: Obtain resources upon detection that more resources are needed for a workload</a></li>
-        <li><a href="./REL07-BP04.html">REL07-BP04: Load test your workload</a></li>
+        <li><a href="./reliability/REL07.html">View all REL07 best practices</a></li>
+        <li><a href="./reliability/REL07-BP01.html">REL07-BP01: Use auto scaling or on-demand resources</a></li>
+        <li><a href="./reliability/REL07-BP02.html">REL07-BP02: Obtain resources upon detection of impairment to a workload</a></li>
+        <li><a href="./reliability/REL07-BP03.html">REL07-BP03: Obtain resources upon detection that more resources are needed for a workload</a></li>
+        <li><a href="./reliability/REL07-BP04.html">REL07-BP04: Load test your workload</a></li>
       </ul>
     </div>
   </div>
@@ -119,12 +119,12 @@ The Reliability pillar includes the ability to support development and run workl
     <a href="javascript:void(0);">REL08: How do you implement change?</a>
     <div class="question-content">
       <ul>
-        <li><a href="./REL08.html">View all REL08 best practices</a></li>
-        <li><a href="./REL08-BP01.html">REL08-BP01: Use runbooks for standard activities such as deployment</a></li>
-        <li><a href="./REL08-BP02.html">REL08-BP02: Integrate functional testing as part of your deployment</a></li>
-        <li><a href="./REL08-BP03.html">REL08-BP03: Integrate resiliency testing as part of your deployment</a></li>
-        <li><a href="./REL08-BP04.html">REL08-BP04: Deploy using immutable infrastructure</a></li>
-        <li><a href="./REL08-BP05.html">REL08-BP05: Deploy changes with automation</a></li>
+        <li><a href="./reliability/REL08.html">View all REL08 best practices</a></li>
+        <li><a href="./reliability/REL08-BP01.html">REL08-BP01: Use runbooks for standard activities such as deployment</a></li>
+        <li><a href="./reliability/REL08-BP02.html">REL08-BP02: Integrate functional testing as part of your deployment</a></li>
+        <li><a href="./reliability/REL08-BP03.html">REL08-BP03: Integrate resiliency testing as part of your deployment</a></li>
+        <li><a href="./reliability/REL08-BP04.html">REL08-BP04: Deploy using immutable infrastructure</a></li>
+        <li><a href="./reliability/REL08-BP05.html">REL08-BP05: Deploy changes with automation</a></li>
       </ul>
     </div>
   </div>
@@ -133,11 +133,11 @@ The Reliability pillar includes the ability to support development and run workl
     <a href="javascript:void(0);">REL09: How do you back up data?</a>
     <div class="question-content">
       <ul>
-        <li><a href="./REL09.html">View all REL09 best practices</a></li>
-        <li><a href="./REL09-BP01.html">REL09-BP01: Identify and back up all data that needs to be backed up, or reproduce the data from sources</a></li>
-        <li><a href="./REL09-BP02.html">REL09-BP02: Secure and encrypt backups</a></li>
-        <li><a href="./REL09-BP03.html">REL09-BP03: Perform data backup automatically</a></li>
-        <li><a href="./REL09-BP04.html">REL09-BP04: Perform periodic recovery of the data to verify backup integrity and processes</a></li>
+        <li><a href="./reliability/REL09.html">View all REL09 best practices</a></li>
+        <li><a href="./reliability/REL09-BP01.html">REL09-BP01: Identify and back up all data that needs to be backed up, or reproduce the data from sources</a></li>
+        <li><a href="./reliability/REL09-BP02.html">REL09-BP02: Secure and encrypt backups</a></li>
+        <li><a href="./reliability/REL09-BP03.html">REL09-BP03: Perform data backup automatically</a></li>
+        <li><a href="./reliability/REL09-BP04.html">REL09-BP04: Perform periodic recovery of the data to verify backup integrity and processes</a></li>
       </ul>
     </div>
   </div>
@@ -146,10 +146,10 @@ The Reliability pillar includes the ability to support development and run workl
     <a href="javascript:void(0);">REL10: How do you use fault isolation to protect your workload?</a>
     <div class="question-content">
       <ul>
-        <li><a href="./REL10.html">View all REL10 best practices</a></li>
-        <li><a href="./REL10-BP01.html">REL10-BP01: Deploy the workload to multiple locations</a></li>
-        <li><a href="./REL10-BP02.html">REL10-BP02: Select the appropriate locations for your multi-location deployment</a></li>
-        <li><a href="./REL10-BP03.html">REL10-BP03: Automate recovery for components constrained to a single location</a></li>
+        <li><a href="./reliability/REL10.html">View all REL10 best practices</a></li>
+        <li><a href="./reliability/REL10-BP01.html">REL10-BP01: Deploy the workload to multiple locations</a></li>
+        <li><a href="./reliability/REL10-BP02.html">REL10-BP02: Select the appropriate locations for your multi-location deployment</a></li>
+        <li><a href="./reliability/REL10-BP03.html">REL10-BP03: Automate recovery for components constrained to a single location</a></li>
       </ul>
     </div>
   </div>
@@ -158,14 +158,14 @@ The Reliability pillar includes the ability to support development and run workl
     <a href="javascript:void(0);">REL11: How do you design your workload to withstand component failures?</a>
     <div class="question-content">
       <ul>
-        <li><a href="./REL11.html">View all REL11 best practices</a></li>
-        <li><a href="./REL11-BP01.html">REL11-BP01: Monitor all components of the workload to detect failures</a></li>
-        <li><a href="./REL11-BP02.html">REL11-BP02: Fail over to healthy resources</a></li>
-        <li><a href="./REL11-BP03.html">REL11-BP03: Automate healing on all layers</a></li>
-        <li><a href="./REL11-BP04.html">REL11-BP04: Rely on the data plane and not the control plane during recovery</a></li>
-        <li><a href="./REL11-BP05.html">REL11-BP05: Use static stability to prevent bimodal behavior</a></li>
-        <li><a href="./REL11-BP06.html">REL11-BP06: Send notifications when events impact availability</a></li>
-        <li><a href="./REL11-BP07.html">REL11-BP07: Architect your product to meet availability targets and uptime service level agreements (SLAs)</a></li>
+        <li><a href="./reliability/REL11.html">View all REL11 best practices</a></li>
+        <li><a href="./reliability/REL11-BP01.html">REL11-BP01: Monitor all components of the workload to detect failures</a></li>
+        <li><a href="./reliability/REL11-BP02.html">REL11-BP02: Fail over to healthy resources</a></li>
+        <li><a href="./reliability/REL11-BP03.html">REL11-BP03: Automate healing on all layers</a></li>
+        <li><a href="./reliability/REL11-BP04.html">REL11-BP04: Rely on the data plane and not the control plane during recovery</a></li>
+        <li><a href="./reliability/REL11-BP05.html">REL11-BP05: Use static stability to prevent bimodal behavior</a></li>
+        <li><a href="./reliability/REL11-BP06.html">REL11-BP06: Send notifications when events impact availability</a></li>
+        <li><a href="./reliability/REL11-BP07.html">REL11-BP07: Architect your product to meet availability targets and uptime service level agreements (SLAs)</a></li>
       </ul>
     </div>
   </div>
@@ -174,12 +174,12 @@ The Reliability pillar includes the ability to support development and run workl
     <a href="javascript:void(0);">REL12: How do you test reliability?</a>
     <div class="question-content">
       <ul>
-        <li><a href="./REL12.html">View all REL12 best practices</a></li>
-        <li><a href="./REL12-BP01.html">REL12-BP01: Use playbooks to investigate failures</a></li>
-        <li><a href="./REL12-BP02.html">REL12-BP02: Perform post-incident analysis</a></li>
-        <li><a href="./REL12-BP03.html">REL12-BP03: Test functional requirements</a></li>
-        <li><a href="./REL12-BP04.html">REL12-BP04: Test scaling and performance requirements</a></li>
-        <li><a href="./REL12-BP05.html">REL12-BP05: Test resiliency using chaos engineering</a></li>
+        <li><a href="./reliability/REL12.html">View all REL12 best practices</a></li>
+        <li><a href="./reliability/REL12-BP01.html">REL12-BP01: Use playbooks to investigate failures</a></li>
+        <li><a href="./reliability/REL12-BP02.html">REL12-BP02: Perform post-incident analysis</a></li>
+        <li><a href="./reliability/REL12-BP03.html">REL12-BP03: Test functional requirements</a></li>
+        <li><a href="./reliability/REL12-BP04.html">REL12-BP04: Test scaling and performance requirements</a></li>
+        <li><a href="./reliability/REL12-BP05.html">REL12-BP05: Test resiliency using chaos engineering</a></li>
       </ul>
     </div>
   </div>
@@ -188,12 +188,12 @@ The Reliability pillar includes the ability to support development and run workl
     <a href="javascript:void(0);">REL13: How do you plan for disaster recovery?</a>
     <div class="question-content">
       <ul>
-        <li><a href="./REL13.html">View all REL13 best practices</a></li>
-        <li><a href="./REL13-BP01.html">REL13-BP01: Define recovery objectives for downtime and data loss</a></li>
-        <li><a href="./REL13-BP02.html">REL13-BP02: Use defined recovery strategies to meet the recovery objectives</a></li>
-        <li><a href="./REL13-BP03.html">REL13-BP03: Test disaster recovery implementation to validate the implementation</a></li>
-        <li><a href="./REL13-BP04.html">REL13-BP04: Manage configuration drift at the DR site or region</a></li>
-        <li><a href="./REL13-BP05.html">REL13-BP05: Automate recovery</a></li>
+        <li><a href="./reliability/REL13.html">View all REL13 best practices</a></li>
+        <li><a href="./reliability/REL13-BP01.html">REL13-BP01: Define recovery objectives for downtime and data loss</a></li>
+        <li><a href="./reliability/REL13-BP02.html">REL13-BP02: Use defined recovery strategies to meet the recovery objectives</a></li>
+        <li><a href="./reliability/REL13-BP03.html">REL13-BP03: Test disaster recovery implementation to validate the implementation</a></li>
+        <li><a href="./reliability/REL13-BP04.html">REL13-BP04: Manage configuration drift at the DR site or region</a></li>
+        <li><a href="./reliability/REL13-BP05.html">REL13-BP05: Automate recovery</a></li>
       </ul>
     </div>
   </div>
