@@ -1,8 +1,8 @@
 ---
 title: REL13-BP01 - Define recovery objectives for downtime and data loss
 layout: default
-parent: Reliability
-nav_order: 131
+parent: REL13 - How do you plan for disaster recovery?
+nav_order: 1
 ---
 
 # REL13-BP01: Define recovery objectives for downtime and data loss

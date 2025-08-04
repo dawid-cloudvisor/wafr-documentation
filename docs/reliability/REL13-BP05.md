@@ -1,8 +1,8 @@
 ---
 title: REL13-BP05 - Automate recovery
 layout: default
-parent: Reliability
-nav_order: 135
+parent: REL13 - How do you plan for disaster recovery?
+nav_order: 5
 ---
 
 # REL13-BP05: Automate recovery

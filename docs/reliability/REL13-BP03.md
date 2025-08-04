@@ -1,8 +1,8 @@
 ---
 title: REL13-BP03 - Test disaster recovery implementation to validate the implementation
 layout: default
-parent: Reliability
-nav_order: 133
+parent: REL13 - How do you plan for disaster recovery?
+nav_order: 3
 ---
 
 # REL13-BP03: Test disaster recovery implementation to validate the implementation

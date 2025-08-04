@@ -1,8 +1,8 @@
 ---
 title: REL13-BP04 - Manage configuration drift at the DR site or region
 layout: default
-parent: Reliability
-nav_order: 134
+parent: REL13 - How do you plan for disaster recovery?
+nav_order: 4
 ---
 
 # REL13-BP04: Manage configuration drift at the DR site or region

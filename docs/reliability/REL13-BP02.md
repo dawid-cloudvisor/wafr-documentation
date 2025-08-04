@@ -1,8 +1,8 @@
 ---
 title: REL13-BP02 - Use defined recovery strategies to meet the recovery objectives
 layout: default
-parent: Reliability
-nav_order: 132
+parent: REL13 - How do you plan for disaster recovery?
+nav_order: 2
 ---
 
 # REL13-BP02: Use defined recovery strategies to meet the recovery objectives
