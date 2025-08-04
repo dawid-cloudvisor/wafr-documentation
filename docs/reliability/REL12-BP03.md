@@ -1,8 +1,8 @@
 ---
 title: REL12-BP03 - Test functional requirements
 layout: default
-parent: Reliability
-nav_order: 123
+parent: REL12 - How do you test reliability?
+nav_order: 3
 ---
 
 # REL12-BP03: Test functional requirements

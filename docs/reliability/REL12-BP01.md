@@ -1,8 +1,8 @@
 ---
 title: REL12-BP01 - Use playbooks to investigate failures
 layout: default
-parent: Reliability
-nav_order: 121
+parent: REL12 - How do you test reliability?
+nav_order: 1
 ---
 
 # REL12-BP01: Use playbooks to investigate failures

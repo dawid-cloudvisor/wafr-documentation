@@ -1,8 +1,8 @@
 ---
 title: REL12-BP04 - Test scaling and performance requirements
 layout: default
-parent: Reliability
-nav_order: 124
+parent: REL12 - How do you test reliability?
+nav_order: 4
 ---
 
 # REL12-BP04: Test scaling and performance requirements

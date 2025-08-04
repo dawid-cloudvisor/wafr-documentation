@@ -1,8 +1,8 @@
 ---
 title: REL12-BP02 - Perform post-incident analysis
 layout: default
-parent: Reliability
-nav_order: 122
+parent: REL12 - How do you test reliability?
+nav_order: 2
 ---
 
 # REL12-BP02: Perform post-incident analysis

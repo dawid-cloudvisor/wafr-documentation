@@ -1,8 +1,8 @@
 ---
 title: REL12-BP05 - Test resiliency using chaos engineering
 layout: default
-parent: Reliability
-nav_order: 125
+parent: REL12 - How do you test reliability?
+nav_order: 5
 ---
 
 # REL12-BP05: Test resiliency using chaos engineering
