@@ -2,7 +2,8 @@ title: AWS Well-Architected Framework Documentation
 description: Comprehensive documentation of AWS Well-Architected Framework organized by pillars and questions
 theme: just-the-docs
 
-url: https://dawid-cloudvisor.github.io/wafr-documentation
+url: https://wafr.cloudvisor.eu
+baseurl: ""
 
 # Logo configuration
 logo: "/assets/images/logo-cloudvisor.jpg"
