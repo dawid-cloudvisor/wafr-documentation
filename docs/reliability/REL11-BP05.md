@@ -1,8 +1,8 @@
 ---
 title: REL11-BP05 - Use static stability to prevent bimodal behavior
 layout: default
-parent: Reliability
-nav_order: 115
+parent: REL11 - How do you design your workload to withstand component failures?
+nav_order: 5
 ---
 
 # REL11-BP05: Use static stability to prevent bimodal behavior

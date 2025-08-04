@@ -1,8 +1,8 @@
 ---
 title: REL11-BP01 - Monitor all components of the workload to detect failures
 layout: default
-parent: Reliability
-nav_order: 111
+parent: REL11 - How do you design your workload to withstand component failures?
+nav_order: 1
 ---
 
 # REL11-BP01: Monitor all components of the workload to detect failures

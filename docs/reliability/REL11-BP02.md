@@ -1,8 +1,8 @@
 ---
 title: REL11-BP02 - Fail over to healthy resources
 layout: default
-parent: Reliability
-nav_order: 112
+parent: REL11 - How do you design your workload to withstand component failures?
+nav_order: 2
 ---
 
 # REL11-BP02: Fail over to healthy resources

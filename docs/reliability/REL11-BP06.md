@@ -1,8 +1,8 @@
 ---
 title: REL11-BP06 - Send notifications when events impact availability
 layout: default
-parent: Reliability
-nav_order: 116
+parent: REL11 - How do you design your workload to withstand component failures?
+nav_order: 6
 ---
 
 # REL11-BP06: Send notifications when events impact availability

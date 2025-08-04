@@ -1,8 +1,8 @@
 ---
 title: REL11-BP03 - Automate healing on all layers
 layout: default
-parent: Reliability
-nav_order: 113
+parent: REL11 - How do you design your workload to withstand component failures?
+nav_order: 3
 ---
 
 # REL11-BP03: Automate healing on all layers

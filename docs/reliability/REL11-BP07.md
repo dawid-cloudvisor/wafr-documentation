@@ -1,8 +1,8 @@
 ---
 title: REL11-BP07 - Architect your product to meet availability targets and uptime service level agreements (SLAs)
 layout: default
-parent: Reliability
-nav_order: 117
+parent: REL11 - How do you design your workload to withstand component failures?
+nav_order: 7
 ---
 
 # REL11-BP07: Architect your product to meet availability targets and uptime service level agreements (SLAs)

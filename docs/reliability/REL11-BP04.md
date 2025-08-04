@@ -1,8 +1,8 @@
 ---
 title: REL11-BP04 - Rely on the data plane and not the control plane during recovery
 layout: default
-parent: Reliability
-nav_order: 114
+parent: REL11 - How do you design your workload to withstand component failures?
+nav_order: 4
 ---
 
 # REL11-BP04: Rely on the data plane and not the control plane during recovery
