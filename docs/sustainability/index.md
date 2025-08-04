@@ -3,6 +3,7 @@ title: Sustainability
 layout: default
 nav_order: 7
 has_children: true
+nav_exclude: true
 permalink: /docs/sustainability
 ---
 
