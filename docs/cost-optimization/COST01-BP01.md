@@ -6,7 +6,7 @@ grand_parent: Cost Optimization
 nav_order: 1
 ---
 
-<div class="cost-optimization">
+
 <div class="pillar-header">
   <h1>COST01-BP01: Establish ownership of cost optimization</h1>
   <p>Create a team (Cloud Business Office, Cloud Center of Excellence, or FinOps team) that is responsible for establishing and maintaining cost awareness across your organization. The owner of cost optimization can be an individual or a team that requires people from finance, technology, and business teams and understands the entire organization and cloud finance.</p>
@@ -306,4 +306,4 @@ Drive cost optimization and financial accountability across the organization's c
     <li><a href="https://www.finops.org/framework/capabilities/">FinOps Framework and Capabilities</a></li>
   </ul>
 </div>
-</div>
+

@@ -6,7 +6,7 @@ grand_parent: Cost Optimization
 nav_order: 9
 ---
 
-<div class="cost-optimization">
+
 <div class="pillar-header">
   <h1>COST01-BP09: Quantify business value from cost optimization</h1>
   <p>Measure and communicate the business value achieved through cost optimization efforts. Go beyond simple cost savings to quantify the broader business impact, including improved efficiency, increased innovation capacity, competitive advantages, and reinvestment opportunities. Use these metrics to justify continued investment in cost optimization initiatives.</p>
@@ -548,4 +548,4 @@ Example Initiative Scoring:
     <li><a href="https://www.finops.org/framework/capabilities/budget-management/">FinOps Foundation - Budget Management and Value Realization</a></li>
   </ul>
 </div>
-</div>
+

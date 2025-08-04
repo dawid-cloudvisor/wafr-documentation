@@ -6,7 +6,6 @@ has_children: true
 nav_order: 1
 ---
 
-<div class="cost-optimization">
 <div class="pillar-header">
   <h1>COST01: How do you implement cloud financial management?</h1>
   <p>Implementing Cloud Financial Management helps organizations realize business value and financial success as they optimize their cost and usage and scale on AWS. It requires establishing ownership, creating partnerships between finance and technology teams, implementing cost awareness processes, and building a culture of cost optimization across the organization.</p>
@@ -38,7 +37,7 @@ This question includes the following best practices:
 
 **Cost Transparency**: Making cloud costs visible and understandable to all stakeholders, enabling informed decision-making about resource usage and optimization opportunities.
 
-**Shared Responsibility**: Cost optimization is not just the responsibility of finance teams or cloud engineers—it requires collaboration across the entire organization.
+**Shared Responsibility**: Cost optimization is not just the responsibility of finance teams or cloud engineers--it requires collaboration across the entire organization.
 
 ### Foundational Elements
 
@@ -270,6 +269,15 @@ This question includes the following best practices:
 </div>
 
 <style>
+.pillar-header {
+  background-color: #e8f5e8;
+  border-left: 5px solid #2d7d2d;
+}
+
+.pillar-header h1 {
+  color: #2d7d2d;
+}
+
 .best-practices-list ul {
   list-style-type: none;
   padding-left: 0;

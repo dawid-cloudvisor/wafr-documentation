@@ -6,7 +6,6 @@ has_children: true
 permalink: /docs/cost-optimization
 ---
 
-<div class="cost-optimization">
 <div class="pillar-header">
   <h1>Cost Optimization Pillar</h1>
   <p>The cost optimization pillar focuses on avoiding unnecessary costs. Key topics include understanding and controlling where money is being spent, selecting the most appropriate and right number of resource types, analyzing spend over time, and scaling to meet business needs without overspending.</p>
@@ -119,5 +118,4 @@ The AWS Well-Architected Framework provides a set of questions that allows you t
     <li><a href="https://aws.amazon.com/aws-cost-management/">AWS Cost Management</a></li>
     <li><a href="https://aws.amazon.com/aws-cost-management/cost-optimization-hub/">AWS Cost Optimization Hub</a></li>
   </ul>
-</div>
 </div>

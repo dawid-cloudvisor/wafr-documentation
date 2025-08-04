@@ -6,7 +6,7 @@ grand_parent: Cost Optimization
 nav_order: 6
 ---
 
-<div class="cost-optimization">
+
 <div class="pillar-header">
   <h1>COST01-BP06: Monitor cost proactively</h1>
   <p>Implement proactive cost monitoring to identify cost trends, anomalies, and optimization opportunities before they become significant issues. Use automated monitoring tools and establish regular review processes to maintain continuous visibility into cost performance and take corrective action when needed.</p>
@@ -522,4 +522,4 @@ if __name__ == "__main__":
     <li><a href="https://www.finops.org/framework/capabilities/cost-allocation/">FinOps Foundation - Cost Allocation and Monitoring</a></li>
   </ul>
 </div>
-</div>
+

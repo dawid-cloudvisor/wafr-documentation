@@ -6,7 +6,7 @@ grand_parent: Cost Optimization
 nav_order: 7
 ---
 
-<div class="cost-optimization">
+
 <div class="pillar-header">
   <h1>COST01-BP07: Keep up-to-date with new service releases</h1>
   <p>Stay informed about new AWS service releases, features, and pricing changes that could provide cost optimization opportunities. Regularly evaluate new services and features to determine if they can reduce costs or improve efficiency for your workloads. Establish processes to assess and adopt new cost-effective solutions.</p>
@@ -537,4 +537,4 @@ Success Metrics:
     <li><a href="https://www.finops.org/framework/capabilities/cloud-policy-governance/">FinOps Foundation - Cloud Policy and Governance</a></li>
   </ul>
 </div>
-</div>
+

@@ -6,7 +6,7 @@ grand_parent: Cost Optimization
 nav_order: 5
 ---
 
-<div class="cost-optimization">
+
 <div class="pillar-header">
   <h1>COST01-BP05: Report and notify on cost optimization</h1>
   <p>Configure cost optimization reporting and notifications to provide regular visibility into cost performance, optimization opportunities, and achievements. Implement automated reporting that delivers relevant cost information to appropriate stakeholders at the right frequency and level of detail.</p>
@@ -405,4 +405,4 @@ Alert Escalation Matrix:
     <li><a href="https://www.finops.org/framework/capabilities/cost-allocation/">FinOps Foundation - Cost Allocation and Reporting</a></li>
   </ul>
 </div>
-</div>
+
