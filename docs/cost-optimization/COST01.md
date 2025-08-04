@@ -6,6 +6,7 @@ has_children: true
 nav_order: 1
 ---
 
+<div class="cost-optimization">
 <div class="pillar-header">
   <h1>COST01: How do you implement cloud financial management?</h1>
   <p>Implementing Cloud Financial Management helps organizations realize business value and financial success as they optimize their cost and usage and scale on AWS. It requires establishing ownership, creating partnerships between finance and technology teams, implementing cost awareness processes, and building a culture of cost optimization across the organization.</p>
@@ -261,6 +262,7 @@ This question includes the following best practices:
     <li><a href="https://aws.amazon.com/pricing/">AWS Pricing</a></li>
   </ul>
 </div>
+</div>
 
 <style>
 .best-practices-list ul {
@@ -269,22 +271,22 @@ This question includes the following best practices:
 }
 
 .best-practices-list li {
-  background-color: #e8f4fd;
+  background-color: #e8f5e8;
   margin-bottom: 0.5rem;
   border-radius: 5px;
-  border: 1px solid #b3d9ff;
+  border: 1px solid #b3d9b3;
 }
 
 .best-practices-list li a {
   display: block;
   padding: 0.75rem 1rem;
-  color: #0073bb;
+  color: #2d7d2d;
   text-decoration: none;
   font-weight: 500;
 }
 
 .best-practices-list li a:hover {
-  background-color: #b3d9ff;
+  background-color: #b3d9b3;
   border-radius: 4px;
 }
 </style>

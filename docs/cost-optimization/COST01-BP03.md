@@ -6,6 +6,7 @@ grand_parent: Cost Optimization
 nav_order: 3
 ---
 
+<div class="cost-optimization">
 <div class="pillar-header">
   <h1>COST01-BP03: Establish cloud budgets and forecasts</h1>
   <p>Establish budgets for your workloads and monitor costs against these budgets. Use forecasting to predict future costs and identify potential budget overruns early. Budgets should be established at multiple levels (account, service, project, team) and regularly reviewed and updated based on business changes and historical performance.</p>
@@ -391,4 +392,5 @@ monthly_forecast = calculate_cost_forecast(business_metrics, cost_relationships)
     <li><a href="https://aws.amazon.com/blogs/aws-cost-management/getting-started-with-aws-budgets/">Getting Started with AWS Budgets</a></li>
     <li><a href="https://www.finops.org/framework/capabilities/budget-management/">FinOps Foundation - Budget Management</a></li>
   </ul>
+</div>
 </div>

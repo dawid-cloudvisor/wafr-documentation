@@ -6,6 +6,7 @@ grand_parent: Cost Optimization
 nav_order: 2
 ---
 
+<div class="cost-optimization">
 <div class="pillar-header">
   <h1>COST01-BP02: Establish a partnership between finance and technology</h1>
   <p>Involve finance and technology teams when discussing costs and developing budgets. Finance teams provide business context and requirements, while technology teams provide context on architecture and technical constraints. Regular meetings between these teams help ensure that cost optimization efforts align with business objectives and technical realities.</p>
@@ -347,4 +348,5 @@ Governance:
     <li><a href="https://aws.amazon.com/blogs/aws-cost-management/cost-optimization-pillar-aws-well-architected-framework/">Cost Optimization Pillar - AWS Well-Architected Framework</a></li>
     <li><a href="https://www.finops.org/framework/capabilities/finops-education-enablement/">FinOps Education and Enablement</a></li>
   </ul>
+</div>
 </div>

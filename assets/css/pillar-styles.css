@@ -1,5 +1,6 @@
 /* Custom styles for pillar pages */
 
+/* Default pillar header (Security - Orange) */
 .pillar-header {
   background-color: #ffead7;
   border-left: 5px solid #ff6a00;
@@ -16,6 +17,57 @@
   margin-bottom: 0;
 }
 
+/* Cost Optimization pillar (Green) */
+.cost-optimization .pillar-header {
+  background-color: #e8f5e8;
+  border-left: 5px solid #2d7d2d;
+}
+
+.cost-optimization .pillar-header h1 {
+  color: #2d7d2d;
+}
+
+/* Reliability pillar (Blue) */
+.reliability .pillar-header {
+  background-color: #e8f4fd;
+  border-left: 5px solid #0073bb;
+}
+
+.reliability .pillar-header h1 {
+  color: #0073bb;
+}
+
+/* Performance Efficiency pillar (Purple) */
+.performance-efficiency .pillar-header {
+  background-color: #f3e8ff;
+  border-left: 5px solid #7c3aed;
+}
+
+.performance-efficiency .pillar-header h1 {
+  color: #7c3aed;
+}
+
+/* Operational Excellence pillar (Red) */
+.operational-excellence .pillar-header {
+  background-color: #fef2f2;
+  border-left: 5px solid #dc2626;
+}
+
+.operational-excellence .pillar-header h1 {
+  color: #dc2626;
+}
+
+/* Sustainability pillar (Teal) */
+.sustainability .pillar-header {
+  background-color: #f0fdfa;
+  border-left: 5px solid #0d9488;
+}
+
+.sustainability .pillar-header h1 {
+  color: #0d9488;
+}
+
+/* Default question cards (Security - Orange) */
 .question-card {
   border: 1px solid #ffcca5;
   border-radius: 5px;
@@ -44,6 +96,97 @@
   text-decoration: underline;
 }
 
+/* Cost Optimization question cards (Green) */
+.cost-optimization .question-card {
+  border: 1px solid #b3d9b3;
+  background-color: #e8f5e8;
+}
+
+.cost-optimization .question-card:hover {
+  box-shadow: 0 4px 8px rgba(45, 125, 45, 0.1);
+}
+
+.cost-optimization .question-card h3 {
+  color: #2d7d2d;
+}
+
+.cost-optimization .question-card a {
+  color: #2d7d2d;
+}
+
+/* Reliability question cards (Blue) */
+.reliability .question-card {
+  border: 1px solid #b3d9ff;
+  background-color: #e8f4fd;
+}
+
+.reliability .question-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 115, 187, 0.1);
+}
+
+.reliability .question-card h3 {
+  color: #0073bb;
+}
+
+.reliability .question-card a {
+  color: #0073bb;
+}
+
+/* Performance Efficiency question cards (Purple) */
+.performance-efficiency .question-card {
+  border: 1px solid #c4b5fd;
+  background-color: #f3e8ff;
+}
+
+.performance-efficiency .question-card:hover {
+  box-shadow: 0 4px 8px rgba(124, 58, 237, 0.1);
+}
+
+.performance-efficiency .question-card h3 {
+  color: #7c3aed;
+}
+
+.performance-efficiency .question-card a {
+  color: #7c3aed;
+}
+
+/* Operational Excellence question cards (Red) */
+.operational-excellence .question-card {
+  border: 1px solid #fca5a5;
+  background-color: #fef2f2;
+}
+
+.operational-excellence .question-card:hover {
+  box-shadow: 0 4px 8px rgba(220, 38, 38, 0.1);
+}
+
+.operational-excellence .question-card h3 {
+  color: #dc2626;
+}
+
+.operational-excellence .question-card a {
+  color: #dc2626;
+}
+
+/* Sustainability question cards (Teal) */
+.sustainability .question-card {
+  border: 1px solid #5eead4;
+  background-color: #f0fdfa;
+}
+
+.sustainability .question-card:hover {
+  box-shadow: 0 4px 8px rgba(13, 148, 136, 0.1);
+}
+
+.sustainability .question-card h3 {
+  color: #0d9488;
+}
+
+.sustainability .question-card a {
+  color: #0d9488;
+}
+
+/* Default best practice styles (Security - Orange) */
 .best-practice {
   border-left: 3px solid #ff6a00;
   padding-left: 1rem;
@@ -55,6 +198,52 @@
   margin-top: 0;
 }
 
+/* Cost Optimization best practices (Green) */
+.cost-optimization .best-practice {
+  border-left: 3px solid #2d7d2d;
+}
+
+.cost-optimization .best-practice h4 {
+  color: #2d7d2d;
+}
+
+/* Reliability best practices (Blue) */
+.reliability .best-practice {
+  border-left: 3px solid #0073bb;
+}
+
+.reliability .best-practice h4 {
+  color: #0073bb;
+}
+
+/* Performance Efficiency best practices (Purple) */
+.performance-efficiency .best-practice {
+  border-left: 3px solid #7c3aed;
+}
+
+.performance-efficiency .best-practice h4 {
+  color: #7c3aed;
+}
+
+/* Operational Excellence best practices (Red) */
+.operational-excellence .best-practice {
+  border-left: 3px solid #dc2626;
+}
+
+.operational-excellence .best-practice h4 {
+  color: #dc2626;
+}
+
+/* Sustainability best practices (Teal) */
+.sustainability .best-practice {
+  border-left: 3px solid #0d9488;
+}
+
+.sustainability .best-practice h4 {
+  color: #0d9488;
+}
+
+/* Default implementation steps (Security - Orange) */
 .implementation-step {
   background-color: #ffead7;
   padding: 1rem;
@@ -65,6 +254,51 @@
 .implementation-step h4 {
   color: #ff6a00;
   margin-top: 0;
+}
+
+/* Cost Optimization implementation steps (Green) */
+.cost-optimization .implementation-step {
+  background-color: #e8f5e8;
+}
+
+.cost-optimization .implementation-step h4 {
+  color: #2d7d2d;
+}
+
+/* Reliability implementation steps (Blue) */
+.reliability .implementation-step {
+  background-color: #e8f4fd;
+}
+
+.reliability .implementation-step h4 {
+  color: #0073bb;
+}
+
+/* Performance Efficiency implementation steps (Purple) */
+.performance-efficiency .implementation-step {
+  background-color: #f3e8ff;
+}
+
+.performance-efficiency .implementation-step h4 {
+  color: #7c3aed;
+}
+
+/* Operational Excellence implementation steps (Red) */
+.operational-excellence .implementation-step {
+  background-color: #fef2f2;
+}
+
+.operational-excellence .implementation-step h4 {
+  color: #dc2626;
+}
+
+/* Sustainability implementation steps (Teal) */
+.sustainability .implementation-step {
+  background-color: #f0fdfa;
+}
+
+.sustainability .implementation-step h4 {
+  color: #0d9488;
 }
 
 .aws-service {
@@ -86,6 +320,32 @@
   margin-bottom: 0.25rem;
 }
 
+/* Cost Optimization AWS service headings (Green) */
+.cost-optimization .aws-service-content h4 {
+  color: #2d7d2d;
+}
+
+/* Reliability AWS service headings (Blue) */
+.reliability .aws-service-content h4 {
+  color: #0073bb;
+}
+
+/* Performance Efficiency AWS service headings (Purple) */
+.performance-efficiency .aws-service-content h4 {
+  color: #7c3aed;
+}
+
+/* Operational Excellence AWS service headings (Red) */
+.operational-excellence .aws-service-content h4 {
+  color: #dc2626;
+}
+
+/* Sustainability AWS service headings (Teal) */
+.sustainability .aws-service-content h4 {
+  color: #0d9488;
+}
+
+/* Default related resources (Security - Orange) */
 .related-resources {
   background-color: #ffead7;
   padding: 1rem;
@@ -100,6 +360,51 @@
 
 .related-resources ul {
   margin-bottom: 0;
+}
+
+/* Cost Optimization related resources (Green) */
+.cost-optimization .related-resources {
+  background-color: #e8f5e8;
+}
+
+.cost-optimization .related-resources h2 {
+  color: #2d7d2d;
+}
+
+/* Reliability related resources (Blue) */
+.reliability .related-resources {
+  background-color: #e8f4fd;
+}
+
+.reliability .related-resources h2 {
+  color: #0073bb;
+}
+
+/* Performance Efficiency related resources (Purple) */
+.performance-efficiency .related-resources {
+  background-color: #f3e8ff;
+}
+
+.performance-efficiency .related-resources h2 {
+  color: #7c3aed;
+}
+
+/* Operational Excellence related resources (Red) */
+.operational-excellence .related-resources {
+  background-color: #fef2f2;
+}
+
+.operational-excellence .related-resources h2 {
+  color: #dc2626;
+}
+
+/* Sustainability related resources (Teal) */
+.sustainability .related-resources {
+  background-color: #f0fdfa;
+}
+
+.sustainability .related-resources h2 {
+  color: #0d9488;
 }
 
 /* Responsive adjustments */

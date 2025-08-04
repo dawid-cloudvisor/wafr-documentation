@@ -6,6 +6,7 @@ grand_parent: Cost Optimization
 nav_order: 4
 ---
 
+<div class="cost-optimization">
 <div class="pillar-header">
   <h1>COST01-BP04: Implement cost awareness in your organizational processes</h1>
   <p>Implement cost awareness into your organizational processes to ensure that cost implications are considered in decision-making. This includes integrating cost considerations into architecture reviews, project planning, procurement processes, and operational procedures. Cost awareness should be embedded throughout the organization, not just within finance teams.</p>
@@ -418,4 +419,5 @@ Measurement and Feedback:
     <li><a href="https://aws.amazon.com/blogs/aws-cost-management/cost-optimization-pillar-aws-well-architected-framework/">Cost Optimization Pillar - AWS Well-Architected Framework</a></li>
     <li><a href="https://www.finops.org/framework/capabilities/finops-education-enablement/">FinOps Education and Enablement</a></li>
   </ul>
+</div>
 </div>

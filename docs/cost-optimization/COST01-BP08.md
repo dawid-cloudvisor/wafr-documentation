@@ -6,6 +6,7 @@ grand_parent: Cost Optimization
 nav_order: 8
 ---
 
+<div class="cost-optimization">
 <div class="pillar-header">
   <h1>COST01-BP08: Create a cost-aware culture</h1>
   <p>Establish a culture where cost optimization is everyone's responsibility, not just the finance team's. Implement training programs, incentives, and recognition systems that encourage cost-conscious behavior across all teams. Make cost awareness part of daily operations and decision-making processes.</p>
@@ -498,4 +499,5 @@ Training Effectiveness Metrics:
     <li><a href="https://www.finops.org/framework/capabilities/finops-culture/">FinOps Foundation - FinOps Culture</a></li>
     <li><a href="https://aws.amazon.com/blogs/aws-cost-management/cost-optimization-pillar-aws-well-architected-framework/">Cost Optimization Pillar - AWS Well-Architected Framework</a></li>
   </ul>
+</div>
 </div>
