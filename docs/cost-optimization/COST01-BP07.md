@@ -538,3 +538,26 @@ Success Metrics:
   </ul>
 </div>
 
+
+<style>
+.pillar-header {
+  background-color: #e8f5e8;
+  border-left: 5px solid #2d7d2d;
+}
+
+.pillar-header h1 {
+  color: #2d7d2d;
+}
+
+.aws-service-content h4 {
+  color: #2d7d2d;
+}
+
+.related-resources {
+  background-color: #e8f5e8;
+}
+
+.related-resources h2 {
+  color: #2d7d2d;
+}
+</style>

@@ -119,3 +119,35 @@ The AWS Well-Architected Framework provides a set of questions that allows you t
     <li><a href="https://aws.amazon.com/aws-cost-management/cost-optimization-hub/">AWS Cost Optimization Hub</a></li>
   </ul>
 </div>
+
+<style>
+.pillar-header {
+  background-color: #e8f5e8;
+  border-left: 5px solid #2d7d2d;
+}
+
+.pillar-header h1 {
+  color: #2d7d2d;
+}
+
+.question-card {
+  border: 1px solid #b3d9b3;
+  background-color: #e8f5e8;
+}
+
+.question-card h3 {
+  color: #2d7d2d;
+}
+
+.question-card a {
+  color: #2d7d2d;
+}
+
+.related-resources {
+  background-color: #e8f5e8;
+}
+
+.related-resources h2 {
+  color: #2d7d2d;
+}
+</style>
