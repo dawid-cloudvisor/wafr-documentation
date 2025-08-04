@@ -1,7 +1,8 @@
 ---
 title: COST11-BP01 - Perform thorough analysis of the effort required
 layout: default
-parent: Cost Optimization
+parent: COST11 - How do you evaluate the cost of effort?
+grand_parent: Cost Optimization
 nav_order: 11.1
 ---
 
