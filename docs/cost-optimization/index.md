@@ -251,17 +251,17 @@ The Cost Optimization pillar includes the ability to run systems to deliver busi
 }
 
 .question-button {
-  border: 1px solid #b3d9b3;
+  border: 1px solid #ffcca5;
   border-radius: 5px;
   margin-bottom: 0.5rem;
-  background-color: #e8f5e8;
+  background-color: #ffead7;
   overflow: hidden;
 }
 
 .question-button > a {
   display: block;
   padding: 1rem;
-  color: #2d7d2d;
+  color: #ff6a00;
   font-weight: bold;
   text-decoration: none;
   position: relative;
@@ -277,14 +277,14 @@ The Cost Optimization pillar includes the ability to run systems to deliver busi
 }
 
 .question-button > a:hover {
-  background-color: #b3d9b3;
+  background-color: #ffcca5;
 }
 
 .question-content {
   display: none;
   padding: 0 1rem 1rem 1rem;
   background-color: #fff;
-  border-top: 1px solid #b3d9b3;
+  border-top: 1px solid #ffcca5;
 }
 
 .question-content ul {
@@ -298,7 +298,7 @@ The Cost Optimization pillar includes the ability to run systems to deliver busi
 }
 
 .question-content li a {
-  color: #2d7d2d;
+  color: #ff6a00;
   text-decoration: none;
 }
 
