@@ -1,7 +1,8 @@
 ---
 title: COST10-BP03 - Implement new service evaluation automation
 layout: default
-parent: Cost Optimization
+parent: COST10 - How do you evaluate new services?
+grand_parent: Cost Optimization
 nav_order: 10.3
 ---
 
