@@ -283,7 +283,7 @@ The Reliability pillar includes the ability to support development and run workl
 }
 
 .question-button > a:after {
-  content: '+';
+  content: var(--after-content, '+');
   position: absolute;
   right: 1rem;
   top: 50%;

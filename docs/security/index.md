@@ -248,7 +248,7 @@ The Security pillar includes the ability to protect information, systems, and as
 }
 
 .question-button > a:after {
-  content: '+';
+  content: var(--after-content, '+');
   position: absolute;
   right: 1rem;
   top: 50%;
